@@ -6,16 +6,6 @@
     "auditLog": "/Users/wangyang/work/sh/core/log/.audit.json",
     "files": [
         {
-            "date": 1537336832177,
-            "name": "/Users/wangyang/work/sh/core/log/access-20180919.log",
-            "hash": "62b977cf75f09f4151a6ff376525f0da"
-        },
-        {
-            "date": 1537336912435,
-            "name": "/Users/wangyang/work/sh/core/log/access-20180919.log",
-            "hash": "20a92a60533ff892201cad7b07220184"
-        },
-        {
             "date": 1537433525200,
             "name": "/Users/wangyang/work/sh/core/log/access-20180920.log",
             "hash": "881b66fc29e4c1d327c4113633fb4b55"
@@ -114,6 +104,16 @@
             "date": 1537856625086,
             "name": "/Users/wangyang/work/sh/core/log/access-20180925.log",
             "hash": "84d95bf057986b642776399deb6ea49a"
+        },
+        {
+            "date": 1537947501939,
+            "name": "/Users/wangyang/work/sh/core/log/access-20180926.log",
+            "hash": "34bb7d6d999e3853c4390a365f3a9243"
+        },
+        {
+            "date": 1537947539103,
+            "name": "/Users/wangyang/work/sh/core/log/access-20180926.log",
+            "hash": "8be0d17d2b138a1e1bdf12a24f8a1ccd"
         }
     ]
 }
