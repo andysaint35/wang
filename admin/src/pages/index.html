@@ -1,0 +1,54 @@
+
+<div>
+  <v-layout>
+    <v-flex md4="md4"></v-flex>
+    <v-flex md8="md8">
+      <v-form class="row jr" :inline="true" v-model="filters.model" v-if="filters.fields" :fields="filters.fields" @submit="doSearch" submitButtonText="Search" submitButtonIcon="search"></v-form>
+    </v-flex>
+  </v-layout>
+  <v-card>
+    <div>
+      <v-btn class="green" router="router" fab="fab" absolute="absolute" top="top" right="right" dark="dark" :to="{name: 'create', params: {resource}}" v-if="options.create !== false">
+        <v-icon>add</v-icon>
+      </v-btn>
+    </div>
+    <v-data-table :headers="columns" :items="items" :total-items="pagination.totalItems" hide-actions="hide-actions" :pagination.sync="pagination" :loading="loading">
+      <template slot="items" slot-scope="props">
+        <tr>
+          <td :class="column.left? '': 'text-xs-right'" v-for="column in columns" v-html="getColumnData(props.item, column)"></td>
+          <td v-if="actions !== false" width="160">
+            <template v-for="(value, action) in actions">
+              <v-btn v-if="['edit', 'delete'].indexOf(action) &lt; 0" router="router" primary="primary" fab="fab" small="small" dark="dark" :to="{name: action, params: {resource,id:props.item.id}}">
+                <v-icon>{{action.icon ? action.icon : action}}</v-icon>
+              </v-btn>
+            </template>
+            <v-btn v-if="options.edit !== false" dark="dark" primary="primary" fab="fab" small="small" :to="{name: 'edit', params: {resource,id:props.item.id}}">
+              <v-icon>edit</v-icon>
+            </v-btn>
+            <!-- also you can try this: inline edit-->
+            <v-btn v-if="options.edit !== false" dark="dark" fab="fab" success="success" small="small" @click.native.stop="showEdit(props.item)">
+              <v-icon>edit</v-icon>
+            </v-btn>
+            <v-btn v-if="options.delete !== false" fab="fab" small="small" @click="remove(props.item)">
+              <v-icon>delete</v-icon>
+            </v-btn>
+          </td>
+        </tr>
+      </template>
+    </v-data-table>
+    <div class="jc">
+      <v-pagination class="ma-3" v-model="pagination.page" :length="totalPages" circle="circle"></v-pagination>
+    </div>
+  </v-card>
+  <v-dialog v-model="isShowEdit" width="70%">
+    <v-card>
+      <v-card-title>{{$t('Edit')}} #{{currentItem.id}}</v-card-title>
+      <v-card-text>
+        <v-form v-model="form.model" v-bind="form" method="patch" :action="resource+'/'+currentItem.id" @success="onSaveEdit"></v-form>
+      </v-card-text>
+      <v-card-actions actions="actions">
+        <v-btn flat="flat" primary="primary" @click.native="isShowEdit = false">{{$t('Close')}}</v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-dialog>
+</div>
