@@ -114,6 +114,11 @@
             "date": 1537947539103,
             "name": "/Users/wangyang/work/sh/core/log/access-20180926.log",
             "hash": "8be0d17d2b138a1e1bdf12a24f8a1ccd"
+        },
+        {
+            "date": 1538024790494,
+            "name": "/Users/wangyang/work/sh/core/log/access-20180927.log",
+            "hash": "111b253683e72d7d528a0cfc6a72351c"
         }
     ]
 }
