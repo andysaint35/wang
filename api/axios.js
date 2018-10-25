@@ -57,6 +57,7 @@ module.exports = function createInstance(_config) {
   // Add a response interceptor
   instance.interceptors.response.use(function (response) {
     // Do something with response data
+   // console.log(JSON.stringify(response));
     const traceId = response.config.headers.TraceId;
     let data = JSON.stringify(response.data);
   

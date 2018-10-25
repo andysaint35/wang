@@ -1,2 +1,0 @@
-::ffff:127.0.0.1 - - [2018-09-27 13:07:05.21] "GET / HTTP/1.1" 304 - - 56.815 ms "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0"
-::ffff:127.0.0.1 - - [2018-09-27 13:07:05.46] "GET /favicon.ico HTTP/1.1" 404 33 - 20.295 ms "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0"

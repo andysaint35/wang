@@ -189,7 +189,8 @@ export default {
     },
     fetchGrid () {
       return new Promise((resolve, reject) => {
-        this.$http.get(`${this.resource}/grid`).then(({ data }) => {
+        this.$http.get(`/db/searchFor?collection=user`).then(({ data }) => {
+          //console.log(data);
           for (let k in data.columns) {
             data.columns[k].text = this.$t(data.columns[k].text)
           }
@@ -242,6 +243,9 @@ export default {
 
   },
   created () {
+
+    console.log(111);
+
     this.$store.commit('setPageTitle', global.helper.i.titleize(global.helper.i.pluralize(this.resource)))
     this.fetchGrid().then(() => {})
     this.fetchData()

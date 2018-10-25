@@ -14,7 +14,7 @@ const client = new redis.Client();
 function setOa() {
   return function(req, res, next) {
     var type = req.body.type || req.query.type;
-
+    console.log(type);
     if(oa[type]) {
       req.oa = oa[type];
       next();

@@ -1,58 +1,6 @@
 {
-  "hom": {
-    "appId": "wx516ea2a122292abc",
-    "appSecret": "6304190d86ce7e20ec56a5bc6a38598b"
-  },
-  "changxu": {
-    "appId": "wx054de4175bc8fdc2",
-    "appSecret": "a2fb1716b9f2593644a8bbdea273e984"
-  },
-  "maqian": {
-    "appId": "wxac9284eeca29d058",
-    "appSecret": "d4624c36b6795d1d99dcf0547af5443d"
-  },
-  "liuting": {
-    "appId": "wxf4663d27c8fd6661",
-    "appSecret": "0423c30d815817a5ae98df71d8d19dc7"
-  },
-  "shanshan": {
-    "appId": "wxc5c5b333f40a10f4",
-    "appSecret": "c93d2efd79a68493ecb52c62bb2d5177"
-  },
-  "zhanglin": {
-    "appId": "wx0509b125807be776",
-    "appSecret": "16980daab94e8005c4cf0605086e284e"
-  },
-  "hulei": {
-    "appId": "wxb6e49e8a800cd08e",
-    "appSecret": "b7d648fc0358e6b9bc9ff5f581163ca7"
-  },
-  "congcong": {
-    "appId": "wx59a4c5ca5860210a",
-    "appSecret": "0349de2f700822bad3be668ee14b8cd6"
-  },
-  "kiwi": {
-    "appId": "wxab7a3fea6a9a7b68",
-    "appSecret": "f3f1168427e78ad51e8e42854536aea5"
-  },
-  "mxd": {
-    "appId": "wx33bc4f6d13838068",
-    "appSecret": "dbc7c87c372cbc9a8fcbb66cb0e9ae24"
-  },
-  "unifi": {
-    "appId": "wx159c77ba3d82a555",
-    "appSecret": "cbf485b07d403ca44cb45837e66bf31e"
-  },
-  "nonobank": {
-    "appId": "wx2b16bc2dcbaf822c",
-    "appSecret": "4c17660e8dd1cebb5f8fa29ec70aceb3"
-  },
-  "mzqbj": {
-    "appId": "wxbc4ff9e05b151aa4",
-    "appSecret": "562d6226511283c746bcfc5f5f0f1bc9"
-  },
-  "csyy": {
-    "appId": "wxdaa9f3b8927c8ab8",
-    "appSecret": "d4624c36b6795d1d99dcf0547af5443d"
+  "andy": {
+    "appId": "wx415d02aefb8084fa",
+    "appSecret": "a36de4248e6f08b3e2d06ef21c8bf768"
   }
 }

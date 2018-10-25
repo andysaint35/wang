@@ -14,11 +14,11 @@ module.exports = {
   port: process.env.PORT || 19000,
 
   // Codis Server
-  codis: {
-    host: '172.16.3.65',
-    port: 29000,
-    password: 'redis'
-  },
+  // codis: {
+  //   host: '172.16.3.65',
+  //   port: 29000,
+  //   password: 'redis'
+  // },
 
   // Signature Auth
   signAuth: true,

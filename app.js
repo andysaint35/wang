@@ -72,8 +72,12 @@ if (app.get('env') === 'prod' || app.get('env') === 'pre') {
 // routing entrance config
 app.use('/', require('./routes/index'));
 app.use('/admin', require('./routes/admin/index'));
-app.use('/wechat', require('./api/wechat/wechat.service').setOa(), require('./api/wechat'));
-app.use('/api', require('./api'));
+app.use('/wechat', require('./routes/wechat'));
+
+
+
+app.use('/api/wechat', require('./api/wechat/wechat.service').setOa(), require('./api/wechat'));
+app.use('/api/admin', require('./api/admin'));
 
 // serve api doc
 // if (app.get('env') !== 'prod') {

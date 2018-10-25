@@ -9,7 +9,7 @@
     },
     "type": {
       "type": "string",
-      "enum": ["hom", "changxu", "maqian", "liuting", "shanshan", "zhanglin", "hulei", "congcong", "kiwi", "nonobank", "mxd", "unifi", "mzqbj"]
+      "enum": ["andy"]
     }
   },
   "required": ["type", "url"]

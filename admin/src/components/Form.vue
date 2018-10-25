@@ -10,6 +10,7 @@
         <v-tabs-content v-for="(fields, key) in group.children" :key="key" :id="'tab-' + key">
           <v-card flat="flat">
             <v-card-text>
+              <!--name 为key  field为value-->
               <v-field v-for="(field, name) in fields" :key="name" :name="name" :field="field" v-model="model[name]"></v-field>
             </v-card-text>
           </v-card>
@@ -101,11 +102,13 @@ export default {
       if (!this.groupBy) {
         return null
       }
+
       let parents = {}
       let children = {}
       for (let k in this.fields) {
-        let field = this.fields[k]
-        let ref = field[this.groupBy]
+
+        let field = this.fields[k]  // object[value]
+        let ref = field[this.groupBy] //object[value][]
         let parentKey = field.id
         if (ref === null) { // is parent
           parents[parentKey] = field
