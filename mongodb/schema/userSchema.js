@@ -12,7 +12,33 @@ const db = require('../db');
 
 let schemaTable = {
   "name" : { "type":"string" },
-  "title" : { "type":"date" }
+  "tel" : { "type":"string" },
+  "q1" : { "type": "Mixed"},
+  "q2" : { "type": "Mixed"},
+  "q3" : { "type": "Mixed"},
+  "q4" : { "type": "Mixed"},
+  "q5" : { "type": "Mixed"},
+  "q6" : { "type": "Mixed"},
+  "q7" : { "type": "Mixed"},
+  "q8" : { "type": "Mixed"},
+  "q9" : { "type": "Mixed"},
+  "q10" : { "type": "Mixed"},
+  "q11" : { "type": "Mixed"},
+  "q12" : { "type": "Mixed"},
+  "q13" : { "type": "Mixed"},
+  "q14" : { "type": "Mixed"},
+  "q15" : { "type": "Mixed"},
+  "q16" : { "type": "Mixed"},
+  "q17" : { "type": "Mixed"},
+  "q18" : { "type": "Mixed"},
+  "q19" : { "type": "Mixed"},
+  "q20" : { "type": "Mixed"},
+  "q21" : { "type": "Mixed"},
+  "q22" : { "type": "Mixed"},
+  "q23" : { "type": "Mixed"},
+  "q24" : { "type": "Mixed"},
+  "q25" : { "type": "Mixed"},
+  "score" : { "type": "Number"}
 }
 
 let schema = new db.Schema(schemaTable, {timestamps: true , wtimeout: 10000});

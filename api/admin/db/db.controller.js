@@ -18,7 +18,7 @@ module.exports = {
 
 const sumQuestion = 25;
 const times =10;
-const correctAnswer=[2,2,2,1,1,2,2,2,3,2,2,2,1,1,3,3,2,1,2,2,2,3,3,3,2];
+const correctAnswer=[3,2,2,1,1,2,2,2,3,2,2,2,1,1,3,3,2,1,2,2,2,3,3,3,2];
 
 
 function buildcsv(req, res){
@@ -94,11 +94,10 @@ function add(req, res){
   let answer = JSON.parse(req.body.answer);
   question.map((value, index)=>{
     queryQ[`q${value}`] = answer[index];
-    if(correctAnswer[value] == answer[index]){
+    if(correctAnswer[value-1] == answer[index]){
       score++;
     }
   })
-
 
   let data ={
     name:req.body.name,
