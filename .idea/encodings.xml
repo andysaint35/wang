@@ -2,5 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/admin/src/pages/Chat.vue" charset="GB2312" />
+    <file url="file:///web/bamboo/about5.aspx" charset="GB2312" />
+    <file url="file:///web/bamboo/admin/cooperation.aspx" charset="GB2312" />
+    <file url="file:///web/bamboo/contact.aspx" charset="GB2312" />
+    <file url="file:///web/bamboo/nav.aspx" charset="GB2312" />
+    <file url="file:///web/bamboo/support0.aspx" charset="GB2312" />
   </component>
 </project>

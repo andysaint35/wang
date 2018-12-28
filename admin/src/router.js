@@ -34,7 +34,8 @@ const router = new Router({
       route('/settings', 'Settings'),
       route('/theme', 'Theme'),
       route('/chat', 'Chat'),
-      route('/about', 'About')
+      route('/about', 'About'),
+      route('/test', 'test')
     ])
 
     // Global redirect for 404

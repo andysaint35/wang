@@ -121,7 +121,6 @@
         // this.$http.get('menu').then(({data}) => this.$store.commit('setMenu', data))
       }
     },
-
     created () {
       this.fetchMenu()
     }

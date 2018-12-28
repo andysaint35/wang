@@ -6,109 +6,29 @@
     "auditLog": "/Users/wangyang/work/sh/core/log/.audit.json",
     "files": [
         {
-            "date": 1540380324183,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181024.log",
-            "hash": "7507145bc91b804f04a80d8d6efcfbed"
+            "date": 1545188928660,
+            "name": "/Users/wangyang/work/sh/core/log/access-20181219.log",
+            "hash": "ba3b5954bcc622db34ebe64c776fc203"
         },
         {
-            "date": 1540539019462,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "09743051b6ab58314feeeeaedb176939"
+            "date": 1545274221307,
+            "name": "/Users/wangyang/work/sh/core/log/access-20181220.log",
+            "hash": "49b69751fa5b9b93fcb0b99c48953e99"
         },
         {
-            "date": 1540539274324,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "9d39f600aa149592d7c09da6bc3ecef5"
+            "date": 1545359050662,
+            "name": "/Users/wangyang/work/sh/core/log/access-20181221.log",
+            "hash": "5eb037a3f1e44901ac7a2b95e0514044"
         },
         {
-            "date": 1540539576875,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "e4e025397c97a5dd7e4beb94186cc45f"
+            "date": 1545706708213,
+            "name": "/Users/wangyang/work/sh/core/log/access-20181225.log",
+            "hash": "8c2970836b3196130e6d74e94feab5c6"
         },
         {
-            "date": 1540540420918,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "fafd25c0d9d45efdead96923ccb001af"
-        },
-        {
-            "date": 1540540535312,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "946f8ca74d4e826cc89947623e4556ef"
-        },
-        {
-            "date": 1540540693606,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "d1443cc51f2db43963faa72f1893bc63"
-        },
-        {
-            "date": 1540540716293,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "43c92027f0a702bcb5db1796f021b949"
-        },
-        {
-            "date": 1540543250795,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "82dc4198fb6df4baead36fde2dade2dd"
-        },
-        {
-            "date": 1540549768304,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "6f1d28be5e3d803577a06d406327bfb4"
-        },
-        {
-            "date": 1540550019657,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "bce0e4aa51e7ab7d3b5da1f86c45c137"
-        },
-        {
-            "date": 1540550066522,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "59d069bdc2db524264a28ed0e6579437"
-        },
-        {
-            "date": 1540550286495,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "2989a291e099915a3a9d47b7845862be"
-        },
-        {
-            "date": 1540550484690,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "98989fa076472d7e3d7c9f20ca25e0ec"
-        },
-        {
-            "date": 1540550558902,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "013691c2de36f771e9e27849d665bc29"
-        },
-        {
-            "date": 1540550586565,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "7221bd0c341999a751b38559074c0aaf"
-        },
-        {
-            "date": 1540550623016,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "ccad81285c774208b93bd8ef40419bcc"
-        },
-        {
-            "date": 1540550716359,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "230bdce0db0fe43a075de66249298811"
-        },
-        {
-            "date": 1540550840762,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "1a468c1de894cf1e34a8d9eb79561390"
-        },
-        {
-            "date": 1540550868308,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "ff325514424299a55cc6aee7cefb4298"
-        },
-        {
-            "date": 1540551050405,
-            "name": "/Users/wangyang/work/sh/core/log/access-20181026.log",
-            "hash": "625199826a691cd81639469db92b4474"
+            "date": 1545720619808,
+            "name": "/Users/wangyang/work/sh/core/log/access-20181225.log",
+            "hash": "7de03b3d40655864b196d0f13c2031b3"
         }
     ]
 }

@@ -1,7 +1,7 @@
 export default [
   { 'header': 'Admin' },
-  { 'href': '/', 'title': 'Home', 'icon': 'home' },
-  { 'href': '/crud/types', 'title': 'Types', 'icon': 'view_list' },
+  { 'href': '/', 'title': '首页', 'icon': 'home' },
+  { 'href': '/crud/user', 'title': 'Types', 'icon': 'view_list' },
   { 'href': '/crud/posts', 'title': 'Posts', 'icon': 'view_list' },
   { 'href': '/crud/posts/create', 'title': 'Create Post', 'icon': 'note_add' },
 

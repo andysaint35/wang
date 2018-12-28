@@ -2,6 +2,9 @@
 const db = require('./db');
 
 module.exports = function(collections){
-
-  return db.model(collections, require(`./schema/${collections}Schema.js`));
+  let model = require(`./schema/${collections}/index.js`);
+  return {
+    model: db.model(collections, model.model),
+      desc: model.desc||''
+  };
 }

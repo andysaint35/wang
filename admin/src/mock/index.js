@@ -64,6 +64,8 @@ mock.onGet('/types/grid').reply(200, {
   ]
 })
 
+
+// type
 mock.onGet('/settings/form').reply(({ params }) => {
   return [200, {
     'model': {
@@ -150,8 +152,13 @@ mock.onGet('/posts/form').reply(({ params }) => {
 })
 
 // for `update` action of resources
-mock.onPatch(/\/\w+\/\d+$/).reply(({ params, data: body, url }) => {
-  // const id = url.split('/')[2]
+mock.onPatch(/\/\w+\/\d+$/).reply(({params:params, data:body, url:url }) => {
+
+  //console.log('config', config);
+   console.log('params', params);
+   console.log('url', url);
+  // // const id = url.split('/')[2]
+   console.log('body', body);
   return [200, body]
 })
 mock.onPost(/\/\w+$/).reply(({ params, data: body, url }) => {

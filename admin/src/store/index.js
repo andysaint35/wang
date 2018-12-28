@@ -18,7 +18,6 @@ const store = new Vuex.Store({
 
   },
   mutations: {
-
     setAuth (state, { user, token }) {
       state.user = user
       state.token = token
@@ -36,7 +35,6 @@ const store = new Vuex.Store({
     }
   },
   actions: {
-
     checkAuth ({ commit }) {
       let data = {
         user: global.helper.ls.get('user'),

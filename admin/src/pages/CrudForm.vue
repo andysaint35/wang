@@ -2,7 +2,11 @@
 
   <v-layout>
     <v-flex xs8="xs8">
-      <v-form v-model="model" v-bind="$data" :method="method" :action="action" @success="onSuccess">
+      <v-form v-model="model" v-if="dataReady" v-bind="$data" :method="method" :action="action" @success="onSuccess">
+
+        <v-alert class="py-3" error="error"  :value="hasError.show" type="error">
+          {{hasError.value}}
+        </v-alert>
         <div class="my-4" slot="buttons">
           <v-btn class="grey" dark="dark" @click.native="$root.back()">
             <v-icon dark="dark" left="left">chevron_left</v-icon><span>{{$t('Back')}}</span>
@@ -17,26 +21,29 @@
 </template>
 
 <script>
-
+  import schema from "../../config/model.schema.json";
 export default {
 
   data () {
     return {
       model: {},
       fields: {},
-      rules: {},
-      messages: {}
+      rules: {"name": 'required'},
+      messages: {},
+      hasError: {show:false, value:""},
+      dataReady: false,
+      urlResource: this.$route.params.resource
     }
   },
   computed: {
     method () {
-      return this.isEdit ? 'patch' : 'post'
+      return 'post'
     },
     action () {
       if (this.isEdit) {
-        return `${this.resource}/${this.id}`
+        return `/${this.collectionNumber}/modify/${this.id}`
       } else {
-        return `${this.resource}`
+        return `/${this.collectionNumber}/add`
       }
     },
     isEdit () {
@@ -47,12 +54,17 @@ export default {
     },
     id () {
       return this.$route.params.id
+    },
+    collectionNumber (){
+      return schema.collection.indexOf(this.$route.params.resource)
+    },
+    showList (){
+      return schema.showList[this.collectionNumber].length>0?schema.showList[this.collectionNumber].join(","):"";
     }
-
   },
   watch: {
-    '$route': 'fetch',
-    'model': 'updateFields'
+    '$route': 'fetch'
+  //  'model': 'updateFields'
   },
   methods: {
     getFieldError (fieldName) {
@@ -63,36 +75,52 @@ export default {
         }
       }
     },
-    updateFields () {
 
-    },
     fetch () {
-      this.$http.get(`${this.resource}/form`, {
-        params: {id: this.id}
-      }).then(({data}) => {
-        this.model = data.model
-        this.fields = data.fields
-        this.rules = data.rules
-        this.messages = data.messages
-      })
+      let schema = require(`../formSchema/${this.resource}/schema.json`);
+      let newModel = {};
+
+      if(this.isEdit){
+        this.$http.get(`/${this.collectionNumber}/getListSingle`, {
+          params: {id: this.id}
+        }).then(res => {
+
+              this.model = res.data.data;
+
+              this.dataReady = true;
+
+        })
+      }
+      else{
+        this.dataReady = true;
+        this.model = newModel;
+      }
+
+      // this.fields = data.data.fields  //根据不同要求自定义
+      this.fields = schema
+
     },
     onSubmit () {
 
     },
     onSuccess (data) {
-      this.$router.push({name: 'grid', params: {resource: this.resource}})
-      if (data.id) {
-        // this.$router.go(-1)
+      if(data.succeed && data.errorCode =='0000000'){
+        this.$router.push({name: 'grid', params: {resource: this.resource}})
+      }
+      else{
+        this.hasError = { show: true, value:data.errorMsg}
       }
     }
   },
   created () {
+    //console.log("grudform created");
+    this.fetch();
     let pageTitle = (this.isEdit ? 'Update' : 'Create') + ' ' + global.helper.i.titleize(global.helper.i.singularize(this.resource))
+    //console.log(pageTitle);
     this.$store.commit('setPageTitle', pageTitle)
   },
   mounted () {
-    // this.$bus.showMessage('success', 'success')
-    this.fetch()
+    //console.log("grudform mounted");
   }
 }
 </script>

@@ -77,7 +77,8 @@ app.use('/wechat', require('./routes/wechat'));
 
 
 app.use('/api/wechat', require('./api/wechat/wechat.service').setOa(), require('./api/wechat'));
-app.use('/api/admin', require('./api/admin'));
+app.use('/api/admin/upload', require('./api/admin/db.controller').upload);
+app.use('/api/admin/:dbNumber', require('./api/admin/getDB'), require('./api/admin'));
 
 // serve api doc
 // if (app.get('env') !== 'prod') {

@@ -11,7 +11,6 @@ if (!config.debug.mock) {
 axios.defaults.timeout = 5000
 axios.defaults.baseURL = config.api
 axios.defaults.headers.common['Content-Type'] = 'application/json'
-
 // var http = axios.create({
 //   baseURL: config.api,
 //   timeout: 5000

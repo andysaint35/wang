@@ -1,0 +1,19 @@
+{
+  "name": {
+    "label": "姓名",
+    "required": true
+  },
+  "tel": {
+    "label": "电话",
+    "required": true
+  },
+  "score": {
+    "label": "分数"
+  },
+  "q1": {
+    "label": "分数"
+  },
+  "q2": {
+    "label": "分数"
+  }
+}

@@ -1,8 +1,8 @@
-const baseUrl = 'http://127.0.0.1:3000'
+const baseUrl = 'http://127.0.0.1:3500'
 const config = {
   locale: 'en-US', // en-US, zh-CN
   url: baseUrl,
-  ajaxUploadUrl: `${baseUrl}/admin/api/upload`,
+  ajaxUploadUrl: `${baseUrl}/api/admin/upload`,
   debug: {
     mock: false, // enable mock
     http: false // http request log

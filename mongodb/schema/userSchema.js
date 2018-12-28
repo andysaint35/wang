@@ -10,6 +10,41 @@ const db = require('../db');
 // ObjectId    对象ID
 // Array       数组
 
+// 主要用于后台表格的标题 每一个value 对应schema的key
+let schemaDesc = [
+  {"value": "name", 'text':"姓名", "align": 'left',
+    "sortable": false,},
+  {'value': 'tel', 'text':"电话", "align": 'left',
+    "sortable": false },
+  {'value': 'score', 'text':"分数", "align": 'left',
+    "sortable": false },
+  {'value': 'q1', 'text':'第一题' },
+  {'value': 'q2', 'text':'第一题' },
+  {'value': 'q3', 'text':'第一题' },
+  {'value': 'q4', 'text':'第一题' },
+  {'value': 'q5', 'text':'第一题' },
+  {'value': 'q6', 'text':'第一题' },
+  {'value': 'q7', 'text':'第一题' },
+  {'value': 'q8', 'text':'第一题' },
+  {'value': 'q9', 'text':'第一题' },
+  {'value': 'q10', 'text':'第一题' },
+  {'value': 'q11', 'text':'第一题' },
+  {'value': 'q12', 'text':'第一题' },
+  {'value': 'q13', 'text':'第一题' },
+  {'value': 'q14', 'text':'第一题' },
+  {'value': 'q15', 'text':'第一题' },
+  {'value': 'q16', 'text':'第一题' },
+  {'value': 'q17', 'text':'第一题' },
+  {'value': 'q18', 'text':'第一题' },
+  {'value': 'q19', 'text':'第一题' },
+  {'value': 'q20', 'text':'第一题' },
+  {'value': 'q21', 'text':'第一题' },
+  {'value': 'q22', 'text':'第一题' },
+  {'value': 'q23', 'text':'第一题' },
+  {'value': 'q24', 'text':'第一题' },
+  {'value': 'q25', 'text':'第一题' }
+]
+
 let schemaTable = {
   "name" : { "type":"string" },
   "tel" : { "type":"string" },
@@ -51,4 +86,7 @@ schema.statics.findById = function (){
   return {'result':1};
 }
 
-module.exports = schema;
+module.exports = {
+  model:schema,
+  desc:schemaDesc
+};

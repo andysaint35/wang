@@ -1,4 +1,4 @@
-<template lang="pug">
+<template>
 
   <div>
     <form :action="action" @submit.prevent="onSubmit">
@@ -16,6 +16,7 @@
           </v-card>
         </v-tabs-content>
       </v-tabs>
+
       <v-layout v-bind="{[inline? 'row': 'column']: true}" v-if="!groupBy">
         <v-field v-for="(field, name) in fields" :key="name" :name="name" :field="field" v-model="model[name]"></v-field>
         <v-alert class="py-2" error="error" v-model="hasError">
@@ -25,7 +26,8 @@
         <v-flex class="pt-2 actions" xs12="xs12">
           <slot name="buttons">
             <v-btn class="ma-0" primary="primary" dark="dark" type="submit">{{$t(submitButtonText)}}
-              <v-icon right="right" dark="dark">{{submitButtonIcon}}</v-icon>
+              <v-icon right="right" dark="dark">{{submitButtonIcon}}  </v-icon>
+
             </v-btn>
           </slot>
         </v-flex>
@@ -85,6 +87,9 @@ export default {
       required: false,
       type: Object,
       default: () => { }
+    },
+    urlResource:{
+      type:String
     }
 
   },
@@ -102,7 +107,6 @@ export default {
       if (!this.groupBy) {
         return null
       }
-
       let parents = {}
       let children = {}
       for (let k in this.fields) {
@@ -148,8 +152,9 @@ export default {
     },
 
     onSubmit () {
-      const valid = global.validator.make(this.model, this.rules, this.messages)
-      if (valid.passes()) {
+      let valid = require(`../formSchema/${this.urlResource}/validate.js`);
+      let errors = valid.validate(this.model);
+      if (!errors.length) {
         this.$emit('input', this.model)
         if (!this.autoSubmit) {
           this.$emit('submit')
@@ -176,7 +181,7 @@ export default {
           this.$emit('error', status, data)
         })
       } else {
-        const errors = valid.getErrors()
+        console.log("error",errors);
         this.hasError = true
         this.errors = errors
         this.$emit('error', errors)
@@ -185,10 +190,16 @@ export default {
     }
   },
   mounted () {
-    // this.$bus.showMessage('success', 'success')
+
+    //console.log("form mounted");
 
   },
+
+
   created () {
+
+    //console.log("form created");
+
     // global.validator.extend('unique', function (data, field, message, args, get) {
     //   return new Promise(function (resolve, reject) {
     //     // const fieldValue = get(data, field)

@@ -4,7 +4,8 @@ global.helper = helper
 import config from '@/config.sample.js'
 import store from './store/'
 global.store = store
-
+import validate from 'validate'
+global.validate = validate
 import router from './router'
 import i18n from './i18n/'
 // import menu from './menu'
@@ -29,8 +30,9 @@ Vue.use(VueTimeago, {
   }
 })
 
-import Dropzone from 'vue2-dropzone'
-import VueQuillEditor from 'vue-quill-editor'
+import Dropzone from 'vue2-dropzone' //上传插件
+import 'vue2-dropzone/dist/vue2Dropzone.min.css'
+import VueQuillEditor from 'vue-quill-editor' // 富文本编辑框
 Vue.use(VueQuillEditor)
 Vue.component('dropzone', Dropzone)
 
@@ -68,9 +70,7 @@ new Vue({
     // this.$http.get('/users/1').then(({data}) => console.log(data))
     global.$t = this.$t
     // fetch menu from server
-    this.$http.get('/menu').then(({data}) => {
-      this.$store.commit('setMenu', data)
-    })
+
     this.$store.dispatch('checkPageTitle', this.$route.path)
     this.$store.dispatch('checkAuth')
   }

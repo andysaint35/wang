@@ -1,0 +1,8 @@
+{
+  "collection":["admin", "user", "demo"],
+  "showList":[
+    [],
+    ["name","tel","score","q1","q2","q3"],
+    []
+  ]
+}
