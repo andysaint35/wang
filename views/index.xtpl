@@ -34,22 +34,22 @@
 <link rel="alternate" type="application/rss+xml" title="Mothership.SG &raquo; Feed" href="https://mothership.sg/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Mothership.SG &raquo; Comments Feed" href="https://mothership.sg/comments/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Mothership.SG &raquo; 10,000 people to get free travel experiences by sharing old travel photos Comments Feed" href="https://mothership.sg/2018/11/klook-travel-10000-people-to-get-free-travel-experiences-by-sharing-old-travel-photos/feed/" />
-        <script type="3a94e4df2a8a39e2f1385408-text/javascript">
-            window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mothership.sg\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.3"}};
-            !function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-        </script>
-        <style type="text/css">
+		<script type="a6474b0cc6f5c2ea76356430-text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mothership.sg\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
 img.wp-smiley,
 img.emoji {
-    display: inline !important;
-    border: none !important;
-    box-shadow: none !important;
-    height: 1em !important;
-    width: 1em !important;
-    margin: 0 .07em !important;
-    vertical-align: -0.1em !important;
-    background: none !important;
-    padding: 0 !important;
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
 }
 </style>
 <link rel='stylesheet' id='ajax-load-more-css'  href='https://mothership.sg/wp-content/plugins/ajax-load-more/core/dist/css/ajax-load-more.min.css?ver=4.9.3' type='text/css' media='all' />
@@ -61,30 +61,30 @@ img.emoji {
 <link rel='stylesheet' id='mothership_new-style-css'  href='https://mothership.sg/wp-content/themes/mothership_new2/style.css?ver=4.9.3' type='text/css' media='all' />
 <link rel='stylesheet' id='slick-css-css'  href='https://mothership.sg/wp-content/themes/mothership_new2/css/slick.css?ver=4.9.3' type='text/css' media='all' />
 <link rel='stylesheet' id='slick-theme-css-css'  href='https://mothership.sg/wp-content/themes/mothership_new2/css/slick-theme.css?ver=4.9.3' type='text/css' media='all' />
-<link rel='stylesheet' id='vidy-css-css'  href='https://unpkg.com/@vidy/embed/dist/embed.css?ver=20190123023457' type='text/css' media='all' />
+<link rel='stylesheet' id='vidy-css-css'  href='https://unpkg.com/@vidy/embed/dist/embed.css?ver=20190128010230' type='text/css' media='all' />
 <link rel='stylesheet' id='bookman-font-css-css'  href='https://mothership.sg/wp-content/themes/mothership_new2/fonts/bookman/font.css?ver=1542094498' type='text/css' media='all' />
 <link rel='stylesheet' id='main-css-css'  href='https://mothership.sg/wp-content/themes/mothership_new2/css/main-final.css?ver=201806191120' type='text/css' media='all' />
-<link rel='stylesheet' id='override-css-css'  href='https://mothership.sg/wp-content/themes/mothership_new2/css/override.css?ver=20190123023457' type='text/css' media='all' />
-            <script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<link rel='stylesheet' id='override-css-css'  href='https://mothership.sg/wp-content/themes/mothership_new2/css/override.css?ver=20190128010230' type='text/css' media='all' />
+            <script type="a6474b0cc6f5c2ea76356430-text/javascript">
                 if (document.location.protocol != "https:") {
                     document.location = document.URL.replace(/^http:/i, "https:");
                 }
             </script>
-            <script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+            <script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
 /* <![CDATA[ */
-var wpp_params = {"sampling_active":"1","sampling_rate":"100","ajax_url":"https:\/\/mothership.sg\/wp-admin\/admin-ajax.php","action":"update_views_ajax","ID":"283269","token":"9902bd7b30"};
+var wpp_params = {"sampling_active":"1","sampling_rate":"100","ajax_url":"https:\/\/mothership.sg\/wp-admin\/admin-ajax.php","action":"update_views_ajax","ID":"283269","token":"ebf1394b85"};
 /* ]]> */
 </script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/plugins/wordpress-popular-posts/public/js/tracking.js?ver=4.0.0'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/plugins/wp-embed-facebook/lib/lightbox2/js/lightbox.min.js?ver=4.9.3'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/plugins/wp-embed-facebook/lib/js/wpembedfb.min.js?ver=4.9.3'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/plugins/wordpress-popular-posts/public/js/tracking.js?ver=4.0.0'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/plugins/wp-embed-facebook/lib/lightbox2/js/lightbox.min.js?ver=4.9.3'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/plugins/wp-embed-facebook/lib/js/wpembedfb.min.js?ver=4.9.3'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
 /* <![CDATA[ */
 var WEF = {"local":"en_US","version":"v2.7","fb_id":""};
 /* ]]> */
 </script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/plugins/wp-embed-facebook/lib/js/fb.min.js?ver=4.9.3'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/plugins/wp-embed-facebook/lib/js/fb.min.js?ver=4.9.3'></script>
 <link rel='https://api.w.org/' href='https://mothership.sg/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mothership.sg/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mothership.sg/wp-includes/wlwmanifest.xml" /> 
@@ -96,18 +96,18 @@ var WEF = {"local":"en_US","version":"v2.7","fb_id":""};
 <link rel="alternate" type="application/json+oembed" href="https://mothership.sg/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmothership.sg%2F2018%2F11%2Fklook-travel-10000-people-to-get-free-travel-experiences-by-sharing-old-travel-photos%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://mothership.sg/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmothership.sg%2F2018%2F11%2Fklook-travel-10000-people-to-get-free-travel-experiences-by-sharing-old-travel-photos%2F&#038;format=xml" />
 <!-- Graceful Pull-Quotes plugin v2.6.1 -->
-    <link rel="stylesheet" href="https://mothership.sg/wp-content/plugins/graceful-pull-quotes/resources/jspullquotes-core.css" type="text/css" />
-    <link rel="stylesheet" href="https://mothership.sg/wp-content/plugins/graceful-pull-quotes/styles/Default.css" type="text/css" />
-    <script type="3a94e4df2a8a39e2f1385408-text/javascript">
-        var jspq_options = new Array("1", "1", "right", "1", "1", "blockquote", "pullquote", "pullquote pqRight");
-    </script>
-    <script type="3a94e4df2a8a39e2f1385408-text/javascript" src="https://mothership.sg/wp-content/plugins/graceful-pull-quotes/resources/jspullquotes.js"></script>
+	<link rel="stylesheet" href="https://mothership.sg/wp-content/plugins/graceful-pull-quotes/resources/jspullquotes-core.css" type="text/css" />
+	<link rel="stylesheet" href="https://mothership.sg/wp-content/plugins/graceful-pull-quotes/styles/Default.css" type="text/css" />
+	<script type="a6474b0cc6f5c2ea76356430-text/javascript">
+		var jspq_options = new Array("1", "1", "right", "1", "1", "blockquote", "pullquote", "pullquote pqRight");
+	</script>
+	<script type="a6474b0cc6f5c2ea76356430-text/javascript" src="https://mothership.sg/wp-content/plugins/graceful-pull-quotes/resources/jspullquotes.js"></script>
 <!-- end pull-quote additions -->
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans:700,700i|Libre+Franklin:400,400i,700,700i" rel="stylesheet">
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
     var WP = {"baseFile":"https:\/\/mothership.sg\/wp-content\/themes\/mothership_new2","baseURL":"https:\/\/mothership.sg"}</script>
 
-    <script type="3a94e4df2a8a39e2f1385408-text/javascript">
+    <script type="a6474b0cc6f5c2ea76356430-text/javascript">
     var googletag = googletag || {};
     googletag.cmd = googletag.cmd || [];
     (function() {
@@ -121,24 +121,24 @@ var WEF = {"local":"en_US","version":"v2.7","fb_id":""};
     node.parentNode.insertBefore(gads, node);
     })();
     </script>
-    
-    
+	
+	
 </script>
 
 
 <!-- Start AdAsia-->
 <!-- Start Unruly-->
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
 var unruly = window.unruly || {};
 unruly.native = unruly.native || {};
 unruly.native.siteId = 1080958
 </script>
-<script src="//video.unrulymedia.com/native/native-loader.js" type="3a94e4df2a8a39e2f1385408-text/javascript"></script> 
+<script src="//video.unrulymedia.com/native/native-loader.js" type="a6474b0cc6f5c2ea76356430-text/javascript"></script> 
 <!-- End Unruly-->
 <!-- End AdAsia-->
 
 <!-- Facebook Pixel Code -->
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -157,7 +157,7 @@ src="https://www.facebook.com/tr?id=112356165937356&ev=PageView&noscript=1"
 
 
 
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -167,7 +167,7 @@ src="https://www.facebook.com/tr?id=112356165937356&ev=PageView&noscript=1"
   ga('send', 'pageview');
 </script>
 
-    <script type="3a94e4df2a8a39e2f1385408-text/javascript">
+    <script type="a6474b0cc6f5c2ea76356430-text/javascript">
     function check_ga() {
       if (typeof ga === 'function') {
         return true;
@@ -188,24 +188,14 @@ src="https://www.facebook.com/tr?id=112356165937356&ev=PageView&noscript=1"
     </script>
 
 
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src="https://ads.ayads.co/ajs.php?zid=19586"></script>
- <!-- 4f912f5a-809d-4156-bb35-5435cfbf35bf -->
-     <script src="https://unpkg.com/@vidy/embed/dist/embed.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function(event) {
-        let vidy = new Vidy({
-          appid: '4f912f5a-809d-4156-bb35-5435cfbf35bf',
-          postid:'2018/11/klook-travel-10000-people-to-get-free-travel-experiences-by-sharing-old-travel-photos/',
-          autoload: true
-        });
-      });
-    </script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src="https://ads.ayads.co/ajs.php?zid=19586"></script>
+
 
 </head>
 
 <body data-rsssl=1 class="post-template-default single single-post postid-283269 single-format-standard group-blog">
 <div id="fb-root"></div>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
     window.fbAsyncInit = function() {
     FB.init({
         // appId      : '1376317702694777',
@@ -217,7 +207,7 @@ src="https://www.facebook.com/tr?id=112356165937356&ev=PageView&noscript=1"
     
         FB.AppEvents.logPageView();
         
-            var share_total = 0;
+        	var share_total = 0;
 
             $.ajax({
               url: 'https://graph.facebook.com/?id=https://mothership.sg/2018/11/klook-travel-10000-people-to-get-free-travel-experiences-by-sharing-old-travel-photos/',
@@ -226,7 +216,7 @@ src="https://www.facebook.com/tr?id=112356165937356&ev=PageView&noscript=1"
                     var count = data.share.share_count;
                     var old = $('.social-fb-share span').html();
                     if (isNaN(old) ){
-                        old = 0;
+                    	old = 0;
                     }
 
                     share_total = parseInt(old) + count;
@@ -234,36 +224,36 @@ src="https://www.facebook.com/tr?id=112356165937356&ev=PageView&noscript=1"
                     console.log("https shares: " + count);
 
                     $.ajax({
-                      url: 'https://graph.facebook.com/?id=ht'+'tp://mothership.sg/2018/11/klook-travel-10000-people-to-get-free-travel-experiences-by-sharing-old-travel-photos/',
-                      success: function(data2){
-                        if (data2.share) {
-                            var count2 = data2.share.share_count;
+		              url: 'https://graph.facebook.com/?id=ht'+'tp://mothership.sg/2018/11/klook-travel-10000-people-to-get-free-travel-experiences-by-sharing-old-travel-photos/',
+		              success: function(data2){
+		                if (data2.share) {
+		                    var count2 = data2.share.share_count;
 
-                            console.log("http shares: " + count2);
+		                    console.log("http shares: " + count2);
 
-                            count2 = count2 + share_total;
+		                    count2 = count2 + share_total;
 
-                            if (count2 == 0) {
-                                count2 = 0;
-                            }
+		                    if (count2 == 0) {
+		                        count2 = 0;
+		                    }
 
-                            if (count2 >= 1000 && count2<1000000) {
-                                count2 = count2/1000;
-                                count2 = count2.toFixed(1) + "K";
-                            }
+		                    if (count2 >= 1000 && count2<1000000) {
+		                        count2 = count2/1000;
+		                        count2 = count2.toFixed(1) + "K";
+		                    }
 
-                            if (count >= 100000) {
-                                count2 = count2/1000000;
-                                count2 = count2.toFixed(1) + "M";
-                            }
+		                    if (count >= 100000) {
+		                        count2 = count2/1000000;
+		                        count2 = count2.toFixed(1) + "M";
+		                    }
 
-                            var fb_icon = '<img src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/svg/fb-icon.svg"/>';
+		                    var fb_icon = '<img src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/svg/fb-icon.svg"/>';
 
-                            $('.social-fb-share span').html(fb_icon + count2);
+		                    $('.social-fb-share span').html(fb_icon + count2);
 
-                        }
-                      }
-                    });
+		                }
+		              }
+		            });
 
                 }
               }
@@ -309,15 +299,15 @@ $(function(){
 <ul id="menu-new-main-menu" class="categories categories-custom"><li id="menu-item-27915" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27915"><a href="https://mothership.sg/category/news/">News</a></li>
 <li id="menu-item-27913" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-27913"><a href="https://mothership.sg/category/lifestyle/" class="more-nav" id="more-nav-27913">Lifestyle</a>
 <ul class="sub-menu">
-    <li id="menu-item-287420" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287420"><a href="https://mothership.sg/category/lifestyle/trending/">Trending</a></li>
-    <li id="menu-item-287419" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287419"><a href="https://mothership.sg/category/lifestyle/things-to-eat/">Things To Eat</a></li>
-    <li id="menu-item-287418" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287418"><a href="https://mothership.sg/category/lifestyle/things-to-do/">Things To Do</a></li>
-    <li id="menu-item-287417" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287417"><a href="https://mothership.sg/category/lifestyle/stories-of-us/">Stories Of Us</a></li>
-    <li id="menu-item-287412" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287412"><a href="https://mothership.sg/category/lifestyle/celebrity/">Celebrity</a></li>
-    <li id="menu-item-287413" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287413"><a href="https://mothership.sg/category/lifestyle/drama/">Drama</a></li>
-    <li id="menu-item-287414" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287414"><a href="https://mothership.sg/category/lifestyle/heartwarming/">Heartwarming</a></li>
-    <li id="menu-item-287416" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287416"><a href="https://mothership.sg/category/lifestyle/spore-angst/">S&#8217;pore Angst</a></li>
-    <li id="menu-item-287415" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287415"><a href="https://mothership.sg/category/lifestyle/imho/">IMHO</a></li>
+	<li id="menu-item-287420" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287420"><a href="https://mothership.sg/category/lifestyle/trending/">Trending</a></li>
+	<li id="menu-item-287419" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287419"><a href="https://mothership.sg/category/lifestyle/things-to-eat/">Things To Eat</a></li>
+	<li id="menu-item-287418" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287418"><a href="https://mothership.sg/category/lifestyle/things-to-do/">Things To Do</a></li>
+	<li id="menu-item-287417" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287417"><a href="https://mothership.sg/category/lifestyle/stories-of-us/">Stories Of Us</a></li>
+	<li id="menu-item-287412" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287412"><a href="https://mothership.sg/category/lifestyle/celebrity/">Celebrity</a></li>
+	<li id="menu-item-287413" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287413"><a href="https://mothership.sg/category/lifestyle/drama/">Drama</a></li>
+	<li id="menu-item-287414" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287414"><a href="https://mothership.sg/category/lifestyle/heartwarming/">Heartwarming</a></li>
+	<li id="menu-item-287416" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287416"><a href="https://mothership.sg/category/lifestyle/spore-angst/">S&#8217;pore Angst</a></li>
+	<li id="menu-item-287415" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287415"><a href="https://mothership.sg/category/lifestyle/imho/">IMHO</a></li>
 </ul>
 </li>
 <li id="menu-item-267017" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267017"><a href="https://mothership.sg/videos">Videos</a></li>
@@ -325,27 +315,27 @@ $(function(){
 <li id="menu-item-267009" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267009"><a href="https://mothership.sg/tag/ms-weekend">Weekend</a></li>
 <li id="menu-item-164943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-164943"><a href="#" class="more-nav" id="more-nav-164943">+ More</a>
 <ul class="sub-menu">
-    <li id="menu-item-267011" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267011"><a href="https://mothership.sg/category/tech">Technology</a></li>
-    <li id="menu-item-27916" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27916"><a href="https://mothership.sg/category/perspectives/">Perspectives</a></li>
-    <li id="menu-item-267012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267012"><a href="https://mothership.sg/category/parliament/">Parliament</a></li>
-    <li id="menu-item-165740" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165740"><a href="https://mothership.sg/category/community/history/">History</a></li>
-    <li id="menu-item-267013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267013"><a href="https://mothership.sg/tag/environment">Environment</a></li>
-    <li id="menu-item-275458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275458"><a href="https://mothership.sg/ahtc-trial/">AHTC Trial</a></li>
+	<li id="menu-item-267011" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267011"><a href="https://mothership.sg/category/tech">Technology</a></li>
+	<li id="menu-item-27916" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27916"><a href="https://mothership.sg/category/perspectives/">Perspectives</a></li>
+	<li id="menu-item-267012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267012"><a href="https://mothership.sg/category/parliament/">Parliament</a></li>
+	<li id="menu-item-165740" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165740"><a href="https://mothership.sg/category/community/history/">History</a></li>
+	<li id="menu-item-267013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267013"><a href="https://mothership.sg/tag/environment">Environment</a></li>
+	<li id="menu-item-275458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275458"><a href="https://mothership.sg/ahtc-trial/">AHTC Trial</a></li>
 </ul>
 </li>
 <li id="menu-item-271223" class="carrer-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-271223"><a href="https://mothership.sg/careers/">Careers</a></li>
 <a class="search search-main-menu mobile"><li><img src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/svg/search-red.svg"/><span>Search</span></li></a><a class="search search-main-menu desktop"><li><img src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/svg/search-white.svg"/><span>Search</span></li></a><a class="search mobile"><div class="category-item"><p><img src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/svg/search-red.svg"/><span>Search</span></p></div></a></ul><ul id="menu-new-main-menu-1" class="more-categories desktop-small-up"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27915"><a href="https://mothership.sg/category/news/">News</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-27913"><a href="https://mothership.sg/category/lifestyle/" class="more-nav" id="more-nav-27913">Lifestyle</a>
 <ul class="sub-menu">
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287420"><a href="https://mothership.sg/category/lifestyle/trending/">Trending</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287419"><a href="https://mothership.sg/category/lifestyle/things-to-eat/">Things To Eat</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287418"><a href="https://mothership.sg/category/lifestyle/things-to-do/">Things To Do</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287417"><a href="https://mothership.sg/category/lifestyle/stories-of-us/">Stories Of Us</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287412"><a href="https://mothership.sg/category/lifestyle/celebrity/">Celebrity</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287413"><a href="https://mothership.sg/category/lifestyle/drama/">Drama</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287414"><a href="https://mothership.sg/category/lifestyle/heartwarming/">Heartwarming</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287416"><a href="https://mothership.sg/category/lifestyle/spore-angst/">S&#8217;pore Angst</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287415"><a href="https://mothership.sg/category/lifestyle/imho/">IMHO</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287420"><a href="https://mothership.sg/category/lifestyle/trending/">Trending</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287419"><a href="https://mothership.sg/category/lifestyle/things-to-eat/">Things To Eat</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287418"><a href="https://mothership.sg/category/lifestyle/things-to-do/">Things To Do</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287417"><a href="https://mothership.sg/category/lifestyle/stories-of-us/">Stories Of Us</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287412"><a href="https://mothership.sg/category/lifestyle/celebrity/">Celebrity</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287413"><a href="https://mothership.sg/category/lifestyle/drama/">Drama</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287414"><a href="https://mothership.sg/category/lifestyle/heartwarming/">Heartwarming</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287416"><a href="https://mothership.sg/category/lifestyle/spore-angst/">S&#8217;pore Angst</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287415"><a href="https://mothership.sg/category/lifestyle/imho/">IMHO</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267017"><a href="https://mothership.sg/videos">Videos</a></li>
@@ -353,12 +343,12 @@ $(function(){
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267009"><a href="https://mothership.sg/tag/ms-weekend">Weekend</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-164943"><a href="#" class="more-nav" id="more-nav-164943">+ More</a>
 <ul class="sub-menu">
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267011"><a href="https://mothership.sg/category/tech">Technology</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27916"><a href="https://mothership.sg/category/perspectives/">Perspectives</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267012"><a href="https://mothership.sg/category/parliament/">Parliament</a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165740"><a href="https://mothership.sg/category/community/history/">History</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267013"><a href="https://mothership.sg/tag/environment">Environment</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275458"><a href="https://mothership.sg/ahtc-trial/">AHTC Trial</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267011"><a href="https://mothership.sg/category/tech">Technology</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27916"><a href="https://mothership.sg/category/perspectives/">Perspectives</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267012"><a href="https://mothership.sg/category/parliament/">Parliament</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165740"><a href="https://mothership.sg/category/community/history/">History</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267013"><a href="https://mothership.sg/tag/environment">Environment</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275458"><a href="https://mothership.sg/ahtc-trial/">AHTC Trial</a></li>
 </ul>
 </li>
 <li class="carrer-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-271223"><a href="https://mothership.sg/careers/">Careers</a></li>
@@ -366,15 +356,15 @@ $(function(){
 <div id="menu-new-main-menu-2" class="menu-items-mobile display-none"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27915"><a href="https://mothership.sg/category/news/"><div class="category-item"><p>News</p></div></a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-27913"><a href="https://mothership.sg/category/lifestyle/" class="more-nav" id="more-nav-27913"><div class="category-item"><p>Lifestyle</p></div></a>
 <ul class="sub-menu">
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287420"><a href="https://mothership.sg/category/lifestyle/trending/"><div class="category-item"><p>Trending</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287419"><a href="https://mothership.sg/category/lifestyle/things-to-eat/"><div class="category-item"><p>Things To Eat</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287418"><a href="https://mothership.sg/category/lifestyle/things-to-do/"><div class="category-item"><p>Things To Do</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287417"><a href="https://mothership.sg/category/lifestyle/stories-of-us/"><div class="category-item"><p>Stories Of Us</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287412"><a href="https://mothership.sg/category/lifestyle/celebrity/"><div class="category-item"><p>Celebrity</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287413"><a href="https://mothership.sg/category/lifestyle/drama/"><div class="category-item"><p>Drama</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287414"><a href="https://mothership.sg/category/lifestyle/heartwarming/"><div class="category-item"><p>Heartwarming</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287416"><a href="https://mothership.sg/category/lifestyle/spore-angst/"><div class="category-item"><p>S&#8217;pore Angst</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287415"><a href="https://mothership.sg/category/lifestyle/imho/"><div class="category-item"><p>IMHO</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287420"><a href="https://mothership.sg/category/lifestyle/trending/"><div class="category-item"><p>Trending</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287419"><a href="https://mothership.sg/category/lifestyle/things-to-eat/"><div class="category-item"><p>Things To Eat</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287418"><a href="https://mothership.sg/category/lifestyle/things-to-do/"><div class="category-item"><p>Things To Do</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287417"><a href="https://mothership.sg/category/lifestyle/stories-of-us/"><div class="category-item"><p>Stories Of Us</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287412"><a href="https://mothership.sg/category/lifestyle/celebrity/"><div class="category-item"><p>Celebrity</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287413"><a href="https://mothership.sg/category/lifestyle/drama/"><div class="category-item"><p>Drama</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287414"><a href="https://mothership.sg/category/lifestyle/heartwarming/"><div class="category-item"><p>Heartwarming</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287416"><a href="https://mothership.sg/category/lifestyle/spore-angst/"><div class="category-item"><p>S&#8217;pore Angst</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287415"><a href="https://mothership.sg/category/lifestyle/imho/"><div class="category-item"><p>IMHO</p></div></a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267017"><a href="https://mothership.sg/videos"><div class="category-item"><p>Videos</p></div></a></li>
@@ -382,12 +372,12 @@ $(function(){
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267009"><a href="https://mothership.sg/tag/ms-weekend"><div class="category-item"><p>Weekend</p></div></a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-164943"><a href="#" class="more-nav" id="more-nav-164943"><div class="category-item"><p>+ More</p></div></a>
 <ul class="sub-menu">
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267011"><a href="https://mothership.sg/category/tech"><div class="category-item"><p>Technology</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27916"><a href="https://mothership.sg/category/perspectives/"><div class="category-item"><p>Perspectives</p></div></a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267012"><a href="https://mothership.sg/category/parliament/"><div class="category-item"><p>Parliament</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165740"><a href="https://mothership.sg/category/community/history/"><div class="category-item"><p>History</p></div></a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267013"><a href="https://mothership.sg/tag/environment"><div class="category-item"><p>Environment</p></div></a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275458"><a href="https://mothership.sg/ahtc-trial/"><div class="category-item"><p>AHTC Trial</p></div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267011"><a href="https://mothership.sg/category/tech"><div class="category-item"><p>Technology</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27916"><a href="https://mothership.sg/category/perspectives/"><div class="category-item"><p>Perspectives</p></div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267012"><a href="https://mothership.sg/category/parliament/"><div class="category-item"><p>Parliament</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165740"><a href="https://mothership.sg/category/community/history/"><div class="category-item"><p>History</p></div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267013"><a href="https://mothership.sg/tag/environment"><div class="category-item"><p>Environment</p></div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275458"><a href="https://mothership.sg/ahtc-trial/"><div class="category-item"><p>AHTC Trial</p></div></a></li>
 </ul>
 </li>
 <li class="carrer-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-271223"><a href="https://mothership.sg/careers/"><div class="category-item"><p>Careers</p></div></a></li>
@@ -396,15 +386,15 @@ $(function(){
         <div id="menu-new-main-menu-3" class="menu-items"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27915"><a href="https://mothership.sg/category/news/"><div class="category-item"><p>News</p></div></a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-27913"><a href="https://mothership.sg/category/lifestyle/" class="more-nav" id="more-nav-27913"><div class="category-item"><p>Lifestyle</p></div></a>
 <ul class="sub-menu">
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287420"><a href="https://mothership.sg/category/lifestyle/trending/"><div class="category-item"><p>Trending</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287419"><a href="https://mothership.sg/category/lifestyle/things-to-eat/"><div class="category-item"><p>Things To Eat</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287418"><a href="https://mothership.sg/category/lifestyle/things-to-do/"><div class="category-item"><p>Things To Do</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287417"><a href="https://mothership.sg/category/lifestyle/stories-of-us/"><div class="category-item"><p>Stories Of Us</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287412"><a href="https://mothership.sg/category/lifestyle/celebrity/"><div class="category-item"><p>Celebrity</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287413"><a href="https://mothership.sg/category/lifestyle/drama/"><div class="category-item"><p>Drama</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287414"><a href="https://mothership.sg/category/lifestyle/heartwarming/"><div class="category-item"><p>Heartwarming</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287416"><a href="https://mothership.sg/category/lifestyle/spore-angst/"><div class="category-item"><p>S&#8217;pore Angst</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287415"><a href="https://mothership.sg/category/lifestyle/imho/"><div class="category-item"><p>IMHO</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287420"><a href="https://mothership.sg/category/lifestyle/trending/"><div class="category-item"><p>Trending</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287419"><a href="https://mothership.sg/category/lifestyle/things-to-eat/"><div class="category-item"><p>Things To Eat</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287418"><a href="https://mothership.sg/category/lifestyle/things-to-do/"><div class="category-item"><p>Things To Do</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287417"><a href="https://mothership.sg/category/lifestyle/stories-of-us/"><div class="category-item"><p>Stories Of Us</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287412"><a href="https://mothership.sg/category/lifestyle/celebrity/"><div class="category-item"><p>Celebrity</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287413"><a href="https://mothership.sg/category/lifestyle/drama/"><div class="category-item"><p>Drama</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287414"><a href="https://mothership.sg/category/lifestyle/heartwarming/"><div class="category-item"><p>Heartwarming</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287416"><a href="https://mothership.sg/category/lifestyle/spore-angst/"><div class="category-item"><p>S&#8217;pore Angst</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-287415"><a href="https://mothership.sg/category/lifestyle/imho/"><div class="category-item"><p>IMHO</p></div></a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267017"><a href="https://mothership.sg/videos"><div class="category-item"><p>Videos</p></div></a></li>
@@ -412,12 +402,12 @@ $(function(){
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267009"><a href="https://mothership.sg/tag/ms-weekend"><div class="category-item"><p>Weekend</p></div></a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-164943"><a href="#" class="more-nav" id="more-nav-164943"><div class="category-item"><p>+ More</p></div></a>
 <ul class="sub-menu">
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267011"><a href="https://mothership.sg/category/tech"><div class="category-item"><p>Technology</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27916"><a href="https://mothership.sg/category/perspectives/"><div class="category-item"><p>Perspectives</p></div></a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267012"><a href="https://mothership.sg/category/parliament/"><div class="category-item"><p>Parliament</p></div></a></li>
-    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165740"><a href="https://mothership.sg/category/community/history/"><div class="category-item"><p>History</p></div></a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267013"><a href="https://mothership.sg/tag/environment"><div class="category-item"><p>Environment</p></div></a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275458"><a href="https://mothership.sg/ahtc-trial/"><div class="category-item"><p>AHTC Trial</p></div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267011"><a href="https://mothership.sg/category/tech"><div class="category-item"><p>Technology</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27916"><a href="https://mothership.sg/category/perspectives/"><div class="category-item"><p>Perspectives</p></div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267012"><a href="https://mothership.sg/category/parliament/"><div class="category-item"><p>Parliament</p></div></a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165740"><a href="https://mothership.sg/category/community/history/"><div class="category-item"><p>History</p></div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267013"><a href="https://mothership.sg/tag/environment"><div class="category-item"><p>Environment</p></div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275458"><a href="https://mothership.sg/ahtc-trial/"><div class="category-item"><p>AHTC Trial</p></div></a></li>
 </ul>
 </li>
 <li class="carrer-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-271223"><a href="https://mothership.sg/careers/"><div class="category-item"><p>Careers</p></div></a></li>
@@ -436,7 +426,7 @@ $(function(){
 </div>
 <div class="search-bar">
     <form role="search" method="get" action="https://mothership.sg">
-    <input type="text" name="s" placeholder="Search" autocomplete="on"><button type="submit" value="Go">Go</button>
+	<input type="text" name="s" placeholder="Search" autocomplete="on"><button type="submit" value="Go">Go</button>
 </form></div>
 
 
@@ -444,21 +434,21 @@ $(function(){
 
 <div class="content article-page">
 <div class="article original " id="article-original">
-        ﻿<div class="header">
+		﻿<div class="header">
     
 
     
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="3a94e4df2a8a39e2f1385408-text/javascript"></script>
-    <!-- Leaderboard -->
-    <center>
-    <ins class="adsbygoogle"
-     style="display:inline-block;width: 80%; height: 90px;margin: auto;"
-     data-ad-client="ca-pub-8151337340296717"
-     data-ad-slot="8357269786"></ins>
-     </center>
-    <script type="3a94e4df2a8a39e2f1385408-text/javascript">
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="a6474b0cc6f5c2ea76356430-text/javascript"></script>
+	<!-- Leaderboard -->
+	<center>
+	<ins class="adsbygoogle"
+	 style="display:inline-block;width: 80%; height: 90px;margin: auto;"
+	 data-ad-client="ca-pub-8151337340296717"
+	 data-ad-slot="8357269786"></ins>
+	 </center>
+	<script type="a6474b0cc6f5c2ea76356430-text/javascript">
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
  
 
 
@@ -481,12 +471,12 @@ $(function(){
     <img src="https://mothership.sg/wp-content/uploads/2018/11/ynqklkekv5o9plrs3kvl.jpg"/>
 </figure>
 <div class="side-bar">
-        
-                    <script type="3a94e4df2a8a39e2f1385408-text/javascript" async="true" src="//fo-api.omnitagjs.com/fo-api/ot.js?Placement=7a8ff54e48a4d73fb0dddc0d23fa5549"></script>
+		
+			    	<script type="a6474b0cc6f5c2ea76356430-text/javascript" async="true" src="//fo-api.omnitagjs.com/fo-api/ot.js?Placement=7a8ff54e48a4d73fb0dddc0d23fa5549"></script>
     <div class="divider"></div>
         
-        <div class="most-popular events">
-        <h2 class="section-title"><a href="https://mothership.sg/event">Events</a></h2>
+		<div class="most-popular events">
+		<h2 class="section-title"><a href="https://mothership.sg/event">Events</a></h2>
         <div class="event-main-content">
 <div class="ind-article top-story ">
     <!-- <a href="https://mothership.sg/event/minimalism-space-light-object/"> -->
@@ -506,31 +496,6 @@ $(function(){
                         <span class="publish-date drop-pin">
                             <img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/drop-pin.png" />
                             National Gallery Singapore                        </span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </a>    <!-- </a> -->
-    <div class="divider"></div>
-</div>
-<div class="ind-article top-story hidden-xs">
-    <!-- <a href="https://mothership.sg/event/the-presidents-young-talents-2018/"> -->
-            <a href="https://www.singaporeartmuseum.sg/art-events/exhibitions/pyt2018" target="_blank">        <div class="container">
-            <div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2018/10/Screen-Shot-2018-10-17-at-8.33.13-PM.png')"></div>
-            <div class="header">
-                <h1>The President’s Young Talents 2018</h1>
-                <div class="publish-info" style="margin-top: 10px;display: block;">
-                    <p>
-                        <span class="publish-date">
-                            <img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />
-                            04 January 2019 - 27 January 2019, 1000h-1900h (Sat to Thu) 2100h (Fri)                        </span>
-                    </p>
-                </div>
-                <div class="publish-info" style="margin-top: 10px;display: block;">
-                    <p>
-                        <span class="publish-date drop-pin">
-                            <img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/drop-pin.png" />
-                            SAM at 8Q, 8 Queen Street, Singapore 188535                        </span>
                     </p>
                 </div>
             </div>
@@ -563,14 +528,39 @@ $(function(){
     </a>    <!-- </a> -->
     <div class="divider"></div>
 </div>
+<div class="ind-article top-story hidden-xs">
+    <!-- <a href="https://mothership.sg/event/acres-supporters-get-together/"> -->
+            <a href="https://www.facebook.com/ACRESasia/photos/p.10156380990951523/10156380990951523/?type=1&theater" target="_blank">        <div class="container">
+            <div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/Screen-Shot-2019-01-14-at-5.48.33-PM.png')"></div>
+            <div class="header">
+                <h1>Acres Supporters Get-Together</h1>
+                <div class="publish-info" style="margin-top: 10px;display: block;">
+                    <p>
+                        <span class="publish-date">
+                            <img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />
+                            24 February 2019, 1000h-1400h                        </span>
+                    </p>
+                </div>
+                <div class="publish-info" style="margin-top: 10px;display: block;">
+                    <p>
+                        <span class="publish-date drop-pin">
+                            <img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/drop-pin.png" />
+                            91 Jalan Lekar Singapore 698917                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </a>    <!-- </a> -->
+    <div class="divider"></div>
+</div>
 </div>
     </div><!-- end .events -->
-        <div class="most-popular">
-        
+		<div class="most-popular">
+		
 <!-- WordPress Popular Posts Plugin [W] [weekly] [views] [custom] -->
 
 <div id="wpp-3">
-<h2 class="section-title">Upsurge</h2>            <script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<h2 class="section-title">Upsurge</h2>            <script type="a6474b0cc6f5c2ea76356430-text/javascript">
                 /* jQuery is available, so proceed */
                 if ( window.jQuery ) {
 
@@ -604,10 +594,10 @@ $(function(){
 </div>
         <h2 class="section-title" style="display: none;">Upsurge</h2>
         <div class="flamin-hots" style="display: none;">
-                    </div>
+        	        </div>
     </div>
-        
-            </div>
+		
+			</div>
 <div class="main-item" id="post-283269" class="post-283269 post type-post status-publish format-standard has-post-thumbnail hentry category-lifestyle tag-klook tag-lifestyle-2 tag-travel">
     
     <div class="content-article-wrap">
@@ -654,7 +644,7 @@ $(function(){
     <!--Start AdAsia-->
             <div class="adasia_wrap">
             <div id="AdAsia"></div>
-            <script type="3a94e4df2a8a39e2f1385408-text/javascript">
+            <script type="a6474b0cc6f5c2ea76356430-text/javascript">
                 sas.call("std", {
                     siteId:     124199, // 
                     pageId:     725903, // Page : SG_mothership.sg/mothership_outstream_mb
@@ -729,11 +719,29 @@ $(function(){
             </div>
         </div>
     </div>
+    <div class="playlist-5" url="https://mothership.sg/wp-admin/admin-ajax.php?action=story_playlist&id=10,22,5,11,9" id="pl-morning-read">
+        <div class="playlist-6">
+            <div class="playlist-7">
+                <div class="playlist-9 yellow">
+                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/Aloysius_Pang_Black_Tears.jpg)"></div>
+                    <div class="colour ie9up"></div>
+                    <div class="title">
+                                                <img src="https://mothership.sg/wp-content/uploads/2017/06/sunrise.png" />
+                        <p>
+                            <span class="desktop-small-up">Morning Read</span>
+                            <span class="mobile">Morning Commute</span>
+                        </p>
+                        <p class="subtitle" style="display: none;">Interesting stories to discuss with your friends later</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="playlist-5" url="https://mothership.sg/wp-admin/admin-ajax.php?action=story_playlist&id=10,6,5,11" id="pl-weekly-recap">
         <div class="playlist-6">
             <div class="playlist-7">
                 <div class="playlist-9 magenta">
-                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/jinghan-family.jpg)"></div>
+                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/cockroach-featureed.png)"></div>
                     <div class="colour ie9up"></div>
                     <div class="title">
                                                 <img src="https://mothership.sg/wp-content/uploads/2017/06/news.png" />
@@ -751,7 +759,7 @@ $(function(){
         <div class="playlist-6">
             <div class="playlist-7">
                 <div class="playlist-9 blue">
-                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/teacher-versus-student-cover.jpg)"></div>
+                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/saltedeggfly-featured.png)"></div>
                     <div class="colour ie9up"></div>
                     <div class="title">
                                                 <img src="https://mothership.sg/wp-content/uploads/2017/06/thumbs-down.png" />
@@ -769,7 +777,7 @@ $(function(){
         <div class="playlist-6">
             <div class="playlist-7">
                 <div class="playlist-9 orange">
-                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/chope-culture-featured.jpg)"></div>
+                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/cockroach-featureed.png)"></div>
                     <div class="colour ie9up"></div>
                     <div class="title">
                                                 <img src="https://mothership.sg/wp-content/uploads/2017/06/shrug.png" />
@@ -787,7 +795,7 @@ $(function(){
         <div class="playlist-6">
             <div class="playlist-7">
                 <div class="playlist-9 red">
-                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/nus-law-grad-forge-fake-grades.jpg)"></div>
+                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/car.jpg)"></div>
                     <div class="colour ie9up"></div>
                     <div class="title">
                                                 <img src="https://mothership.sg/wp-content/uploads/2017/06/fire.png" />
@@ -823,7 +831,7 @@ $(function(){
         <div class="playlist-6">
             <div class="playlist-7">
                 <div class="playlist-9 lightBlue">
-                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/Untitled-collage-20.jpg)"></div>
+                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/claypot.jpg)"></div>
                     <div class="colour ie9up"></div>
                     <div class="title">
                                                 <img src="https://mothership.sg/wp-content/uploads/2017/06/food.png" />
@@ -841,7 +849,7 @@ $(function(){
         <div class="playlist-6">
             <div class="playlist-7">
                 <div class="playlist-9 lightGreen">
-                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/classroom-lenny-rahman.png)"></div>
+                    <div class="cover-image" style="background-image: url(https://mothership.sg/wp-content/uploads/2019/01/lwf.jpg)"></div>
                     <div class="colour ie9up"></div>
                     <div class="title">
                                                 <img src="https://mothership.sg/wp-content/uploads/2017/06/angry.png" />
@@ -863,109 +871,109 @@ $(function(){
 
         </div>
         <h2 class="section-title" id="recommended-stories-header">Psst, here’s more interesting stuff:</h2>
-        <div id="post-303928" class="ind-article">
-    <a class="heres-more-link" data-title="spore-father-gives-simple-but-deeply-profound-answer-to-why-he-let-his-daughter-convert-to-islam" data-id="303928" href="https://mothership.sg/2019/01/conver-to-islam-father-supportive-singapore/">
-        <div class="container">
-            <div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/jinghan-family.jpg')">
-            </div>
-            <div class="header">
-                <h1>S'pore father gives simple but deeply profound answer to why he let his daughter convert to Islam</h1>
-                                <p class="subtitle">Her father just wants her to be happy.</p>                <div class="publish-info">
+        <div id="post-305455" class="ind-article">
+	<a class="heres-more-link" data-title="natural-birds-nest-site-in-sabah-is-also-home-to-a-nightmarish-amount-of-cockroaches" data-id="305455" href="https://mothership.sg/2019/01/gomantong-cave-sabah-cockroach/">
+		<div class="container">
+			<div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/cockroach-featureed.png')">
+			</div>
+			<div class="header">
+                <h1>Natural bird's nest site in Sabah is also home to a nightmarish amount of cockroaches</h1>
+                				<p class="subtitle">Don't think of this while enjoying your bird's nest soup.</p>                <div class="publish-info">
                     <p>
-                                                
-                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 23, 09:59 am</span>
-                        <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />36 mins</span> -->
+                        						
+                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 27, 10:13 pm</span>
+                        <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />11 hours</span> -->
                     </p>
                 </div>
             </div>
-        </div>
-    </a>
+		</div>
+	</a>
 </div>
 <div class="divider max"></div>
 
-<div id="post-303925" class="ind-article">
-    <a class="heres-more-link" data-title="aloysius-pang-in-critical-condition-undergoes-third-surgery" data-id="303925" href="https://mothership.sg/2019/01/aloysius-pang-critical-condition/">
-        <div class="container">
-            <div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/Pang-Howitzer.jpg')">
-            </div>
-            <div class="header">
-                <h1>Aloysius Pang in critical condition, undergoes third surgery</h1>
-                                <p class="subtitle">He was supposedly pinned by something.</p>                <div class="publish-info">
+<div id="post-305512" class="ind-article">
+	<a class="heres-more-link" data-title="aloysius-pangs-2015-single-black-tears-is-now-the-top-song-on-apple-itunes-spore" data-id="305512" href="https://mothership.sg/2019/01/black-tears-aloysius-pang/">
+		<div class="container">
+			<div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/Aloysius_Pang_Black_Tears.jpg')">
+			</div>
+			<div class="header">
+                <h1>Aloysius Pang's 2015 single 'Black Tears' is now the top song on Apple iTunes S'pore</h1>
+                				<p class="subtitle">Pang's old song reflected the sombre mood at the wake.</p>                <div class="publish-info">
                     <p>
-                                                
-                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 23, 08:38 am</span>
-                        <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />2 hours</span> -->
+                        						
+                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 27, 09:28 pm</span>
+                        <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />12 hours</span> -->
                     </p>
                 </div>
             </div>
-        </div>
-    </a>
+		</div>
+	</a>
 </div>
 <div class="divider max"></div>
 
-<div id="post-303908" class="ind-article">
-    <a class="heres-more-link" data-title="50-boxes-of-pop-pop-firecrackers-seized-at-tuas-checkpoint-but-alternatives-for-fireworks-exist" data-id="303908" href="https://mothership.sg/2019/01/pop-pop-firecrackers-not-allowed-singapore/">
-        <div class="container">
-            <div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/pop-pop-firecrackers-singapore-not-allowed.jpg')">
-            </div>
-            <div class="header">
-                <h1>50 boxes of 'pop pop' firecrackers seized at Tuas Checkpoint, but alternatives for fireworks exist</h1>
-                                <p class="subtitle">Kids growing up in the 1990s would have played with it before.</p>                <div class="publish-info">
+<div id="post-305381" class="ind-article">
+	<a class="heres-more-link" data-title="spore-airlines-gave-out-free-gifts-to-passengers-after-problem-with-in-flight-entertainment-system" data-id="305381" href="https://mothership.sg/2019/01/singapore-airlines-service-world-class/">
+		<div class="container">
+			<div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/collageds.jpg')">
+			</div>
+			<div class="header">
+                <h1>S'pore Airlines gave out free gifts to passengers after problem with in-flight entertainment system</h1>
+                				<p class="subtitle">Great service.</p>                <div class="publish-info">
                     <p>
-                                                
-                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 23, 01:40 am</span>
-                        <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />9 hours</span> -->
-                    </p>
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="divider max"></div>
-
-<div id="post-303872" class="ind-article">
-    <a class="heres-more-link" data-title="spore-law-graduate-who-falsified-her-grades-using-microsoft-paint-struck-off-roll" data-id="303872" href="https://mothership.sg/2019/01/nus-law-grad-forge-fake-grades/">
-        <div class="container">
-            <div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/nus-law-grad-forge-fake-grades.jpg')">
-            </div>
-            <div class="header">
-                <h1>S'pore law graduate who falsified her grades using Microsoft Paint struck off roll</h1>
-                                <p class="subtitle">She should have known better as a lawyer.</p>                <div class="publish-info">
-                    <p>
-                                                
-                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 22, 10:04 pm</span>
+                        						
+                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 27, 07:36 pm</span>
                         <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />13 hours</span> -->
                     </p>
                 </div>
             </div>
-        </div>
-    </a>
+		</div>
+	</a>
 </div>
 <div class="divider max"></div>
 
-<div id="post-303812" class="ind-article">
-    <a class="heres-more-link" data-title="spore-oxford-student-who-questioned-mahathir-says-he-wasnt-too-aggressive" data-id="303812" href="https://mothership.sg/2019/01/singapore-oxford-student-darrion-mohan-mahathir/">
-        <div class="container">
-            <div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/Darrion-Mohan.jpg')">
-            </div>
-            <div class="header">
-                <h1>S'pore Oxford student who questioned Mahathir says he wasn't too 'aggressive'</h1>
-                                <p class="subtitle">He said it was 'interesting' to hear from Mahathir himself.</p>                <div class="publish-info">
+<div id="post-303130" class="ind-article">
+	<a class="heres-more-link" data-title="sporean-filmmaker-boo-junfeng-received-first-2-film-awards-in-army-boots-his-dads-oversized-suit" data-id="303130" href="https://mothership.sg/2019/01/boo-junfeng-filmmaker-interview/">
+		<div class="container">
+			<div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/Boo-Junfeng-cover.jpg')">
+			</div>
+			<div class="header">
+                <h1>S'porean filmmaker Boo Junfeng received first 2 film awards in army boots & his dad's oversized suit</h1>
+                				<p class="subtitle">Almost Famous: Boo Junfeng opens up about his accidental, amusing journey to becoming one of Singapore's most prominent local filmmakers.</p>                <div class="publish-info">
                     <p>
-                                                
-                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 22, 06:20 pm</span>
-                        <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />16 hours</span> -->
+                        						
+                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 27, 07:04 pm</span>
+                        <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />14 hours</span> -->
                     </p>
                 </div>
             </div>
-        </div>
-    </a>
+		</div>
+	</a>
+</div>
+<div class="divider max"></div>
+
+<div id="post-305514" class="ind-article">
+	<a class="heres-more-link" data-title="woman-blocks-bus-43-outside-macpherson-mrt-repeatedly-scolds-bus-driver" data-id="305514" href="https://mothership.sg/2019/01/lady-scold-bus-driver-43-paya-lebar/">
+		<div class="container">
+			<div class="featured-image" style="background-image: url('https://mothership.sg/wp-content/uploads/2019/01/lady-scold-bus-driver-cover.png')">
+			</div>
+			<div class="header">
+                <h1>Woman blocks bus 43 outside MacPherson MRT, repeatedly scolds bus driver</h1>
+                				<p class="subtitle">Intense.</p>                <div class="publish-info">
+                    <p>
+                        						
+                        <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />January 27, 06:40 pm</span>
+                        <!-- <span class="publish-date"><img class="clock" src="https://mothership.sg/wp-content/themes/mothership_new2/img/icons/clock.png" />14 hours</span> -->
+                    </p>
+                </div>
+            </div>
+		</div>
+	</a>
 </div>
 <div class="divider max"></div>
 
                             </div>
     
-    </div>
+	</div>
 <div class="divider"></div>
 <div class="fb-share-slide appear">
     <a href="#" class="social-fb-share">
@@ -1017,30 +1025,30 @@ $(function(){
     <!-- <iframe src="" width="560" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> -->
 </div>
 
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
 /* <![CDATA[ */
 var sb_instagram_js_options = {"sb_instagram_at":"479894638.3a81a9f.a529df36c8a640f8bc82902d7aa4d04d"};
 /* ]]> */
 </script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.4.9'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/navigation.js?ver=20151215'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/skip-link-focus-fix.js?ver=20151215'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/slick.js'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/index-final.js?ver=1525756321'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/mothership.js?ver=201710021622'></script>
-<script type="3a94e4df2a8a39e2f1385408-text/javascript" src='https://mothership.sg/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.4.9'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/navigation.js?ver=20151215'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/slick.js'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/index-final.js?ver=1525756321'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-content/themes/mothership_new2/js/mothership.js?ver=201710021622'></script>
+<script type="a6474b0cc6f5c2ea76356430-text/javascript" src='https://mothership.sg/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
 <script type="text/javascript" data-cfasync="false" src='https://mothership.sg/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
 <script type="text/javascript" data-cfasync="false" src='https://unpkg.com/@vidy/embed/dist/embed.min.js'></script>
 <script type="text/javascript" data-cfasync="false">
     var vidy = new Vidy({
-        appid: '46a2ccb7-e878-4540-a74c-0ac73d751f12',
-        postid: 'klook-travel-10000-people-to-get-free-travel-experiences-by-sharing-old-travel-photos',
+        appid: '4f912f5a-809d-4156-bb35-5435cfbf35bf',
+        postid: location.pathname,
         // content: '.content-article-wrap',
         autoload: true
     });
 </script>
 
-<script type="3a94e4df2a8a39e2f1385408-text/javascript">
+<script type="a6474b0cc6f5c2ea76356430-text/javascript">
 
     /**
      * 
@@ -1059,10 +1067,10 @@ var sb_instagram_js_options = {"sb_instagram_at":"479894638.3a81a9f.a529df36c8a6
 </script>
 
 
-<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="3a94e4df2a8a39e2f1385408-" defer=""></script></body>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="a6474b0cc6f5c2ea76356430-" defer=""></script></body>
 </html>
 
-<!-- Dynamic page generated in 3.018 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2019-01-23 10:35:00 -->
+<!-- Dynamic page generated in 1.207 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-01-28 09:02:31 -->
 
 <!-- super cache -->
