@@ -1,21 +1,20 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
 "use strict";
-const Node = require("./node");
+
+const Statement = require("./statement");
 const KIND = "return";
 
 /**
  * A continue statement
  * @constructor Return
- * @extends {Node}
+ * @extends {Statement}
  * @property {Expression|null} expr
  */
-const Return = Node.extends(function Return(expr, docs, location) {
-  Node.apply(this, [KIND, docs, location]);
+module.exports = Statement.extends(KIND, function Return(expr, docs, location) {
+  Statement.apply(this, [KIND, docs, location]);
   this.expr = expr;
 });
-
-module.exports = Return;

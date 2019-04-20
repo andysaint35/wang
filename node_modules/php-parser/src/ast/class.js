@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Declaration = require("./declaration");
 const KIND = "class";
@@ -18,7 +19,7 @@ const KIND = "class";
  * @property {boolean} isAbstract
  * @property {boolean} isFinal
  */
-const Class = Declaration.extends(function Class(
+module.exports = Declaration.extends(KIND, function Class(
   name,
   ext,
   impl,
@@ -34,5 +35,3 @@ const Class = Declaration.extends(function Class(
   this.body = body;
   this.parseFlags(flags);
 });
-
-module.exports = Class;

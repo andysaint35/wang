@@ -1,8 +1,12 @@
 {
-  "collection":["admin", "user", "demo"],
-  "showList":[
-    [],
-    ["name","tel","score","q1","q2","q3"],
+  "collection": [
+    "adminlist",
+    "user",
+    "demo"
+  ],
+  "showList": [
+    ["username"],
+    ["name", "tel", "score", "q1", "q2", "q3"],
     []
   ]
 }

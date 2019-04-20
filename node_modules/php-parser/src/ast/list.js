@@ -1,19 +1,26 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Sys = require("./sys");
+const Expression = require("./expression");
 const KIND = "list";
 
 /**
  * Defines list assignment
  * @constructor List
- * @extends {Sys}
+ * @extends {Expression}
+ * @property {boolean} shortForm
  */
-const List = Sys.extends(function List(args, docs, location) {
-  Sys.apply(this, [KIND, args, docs, location]);
+module.exports = Expression.extends(KIND, function List(
+  items,
+  shortForm,
+  docs,
+  location
+) {
+  Expression.apply(this, [KIND, docs, location]);
+  this.items = items;
+  this.shortForm = shortForm;
 });
-
-module.exports = List;

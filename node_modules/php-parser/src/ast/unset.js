@@ -1,19 +1,23 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Sys = require("./sys");
+const Statement = require("./statement");
 const KIND = "unset";
 
 /**
  * Deletes references to a list of variables
  * @constructor Unset
- * @extends {Sys}
+ * @extends {Statement}
  */
-const Unset = Sys.extends(function Unset(args, docs, location) {
-  Sys.apply(this, [KIND, args, docs, location]);
+module.exports = Statement.extends(KIND, function Unset(
+  variables,
+  docs,
+  location
+) {
+  Statement.apply(this, [KIND, docs, location]);
+  this.variables = variables;
 });
-
-module.exports = Unset;

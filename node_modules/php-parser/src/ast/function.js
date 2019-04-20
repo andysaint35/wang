@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Declaration = require("./declaration");
 const KIND = "function";
@@ -17,7 +18,7 @@ const KIND = "function";
  * @property {boolean} nullable
  * @property {Block|null} body
  */
-const fn = Declaration.extends(function _Function(
+module.exports = Declaration.extends(KIND, function _Function(
   name,
   args,
   byref,
@@ -33,4 +34,3 @@ const fn = Declaration.extends(function _Function(
   this.nullable = nullable;
   this.body = null;
 });
-module.exports = fn;

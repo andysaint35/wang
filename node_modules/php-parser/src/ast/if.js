@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -17,7 +17,7 @@ const KIND = "if";
  * @property {Block|If|null} alternate
  * @property {boolean} shortForm
  */
-const If = Statement.extends(function If(
+module.exports = Statement.extends(KIND, function If(
   test,
   body,
   alternate,
@@ -31,5 +31,3 @@ const If = Statement.extends(function If(
   this.alternate = alternate;
   this.shortForm = shortForm;
 });
-
-module.exports = If;

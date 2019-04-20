@@ -1,10 +1,11 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Expr = require("./expression");
+const Expression = require("./expression");
 const KIND = "literal";
 
 /**
@@ -14,18 +15,16 @@ const KIND = "literal";
  * @property {string} raw
  * @property {Node|string|number|boolean|null} value
  */
-const Literal = Expr.extends(function Literal(
+module.exports = Expression.extends(KIND, function Literal(
   kind,
   value,
   raw,
   docs,
   location
 ) {
-  Expr.apply(this, [kind || KIND, docs, location]);
+  Expression.apply(this, [kind || KIND, docs, location]);
   this.value = value;
   if (raw) {
     this.raw = raw;
   }
 });
-
-module.exports = Literal;

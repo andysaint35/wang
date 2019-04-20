@@ -7,7 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('core:server');
 var http = require('http');
-
+//var io = app.io;
 /**
  * Get port from environment and store in Express.
  */
@@ -20,6 +20,15 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
+
+/*
+ websocket  socket.io
+*/
+// io.attach(server, {
+//   pingInterval: 10000,  //没有服务端发送pong数据包考虑多少毫秒后关闭连接
+//   pingTimeout: 5000,    //在发送新的客户端 ping数据包之前多少ms（25000） （25秒之后客户端重新发送ping包已建立链接）
+//   // 客户端于服务端的通信非ping pong 包 只是开始确立socket通信之前的包联系
+// });
 
 /**
  * Listen on provided port, on all network interfaces.
@@ -58,9 +67,9 @@ function onError(error) {
     throw error;
   }
 
-  var bind = typeof port === 'string'
-    ? 'Pipe ' + port
-    : 'Port ' + port;
+  var bind = typeof port === 'string' ?
+    'Pipe ' + port :
+    'Port ' + port;
 
   // handle specific listen errors with friendly messages
   switch (error.code) {
@@ -83,8 +92,8 @@ function onError(error) {
 
 function onListening() {
   var addr = server.address();
-  var bind = typeof addr === 'string'
-    ? 'pipe ' + addr
-    : 'port ' + addr.port;
+  var bind = typeof addr === 'string' ?
+    'pipe ' + addr :
+    'port ' + addr.port;
   debug('Listening on ' + bind);
 }

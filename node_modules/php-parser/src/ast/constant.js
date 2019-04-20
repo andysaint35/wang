@@ -1,26 +1,27 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Declaration = require("./declaration");
+const Node = require("./node");
 const KIND = "constant";
 
 /**
- * Defines a namespace constant
+ * Defines a constant
  * @constructor Constant
- * @extends {Declaration}
- * @property {Node|null} value
+ * @extends {Node}
+ * @property {string} name
+ * @property {Node|string|number|boolean|null} value
  */
-const Constant = Declaration.extends(function Constant(
+module.exports = Node.extends(KIND, function Constant(
   name,
   value,
   docs,
   location
 ) {
-  Declaration.apply(this, [KIND, name, docs, location]);
+  Node.apply(this, [KIND, docs, location]);
+  this.name = name;
   this.value = value;
 });
-
-module.exports = Constant;

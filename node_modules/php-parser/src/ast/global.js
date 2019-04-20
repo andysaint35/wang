@@ -1,9 +1,10 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
 "use strict";
+
 const Statement = require("./statement");
 const KIND = "global";
 
@@ -13,9 +14,11 @@ const KIND = "global";
  * @extends {Statement}
  * @property {Variable[]} items
  */
-const Global = Statement.extends(function Global(items, docs, location) {
+module.exports = Statement.extends(KIND, function Global(
+  items,
+  docs,
+  location
+) {
   Statement.apply(this, [KIND, docs, location]);
   this.items = items;
 });
-
-module.exports = Global;

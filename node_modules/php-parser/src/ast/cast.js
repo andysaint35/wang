@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -13,12 +13,18 @@ const KIND = "cast";
  * @constructor Cast
  * @extends {Operation}
  * @property {String} type
+ * @property {String} raw
  * @property {Expression} what
  */
-const Cast = Operation.extends(function Cast(type, what, docs, location) {
+module.exports = Operation.extends(KIND, function Cast(
+  type,
+  raw,
+  what,
+  docs,
+  location
+) {
   Operation.apply(this, [KIND, docs, location]);
   this.type = type;
+  this.raw = raw;
   this.what = what;
 });
-
-module.exports = Cast;

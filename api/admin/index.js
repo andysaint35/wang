@@ -3,7 +3,7 @@
 var express = require('express');
 var router = express.Router();
 const db = require('./db');
-const controller =  require('./db.controller');
+const controller = require('./db.controller');
 const dbSchema = require('./db.schema.json');
 /* GET home page. */
 router.use('/db', db);
@@ -17,6 +17,8 @@ router.post('/modify/:id', controller.modify);
 router.post('/remove', controller.remove);
 
 router.post('/add', controller.add);
+
+router.post('/login', controller.login);
 
 router.get('/testforall', controller.testforall);
 

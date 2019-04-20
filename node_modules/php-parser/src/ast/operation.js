@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -13,8 +13,6 @@ const KIND = "operation";
  * @constructor Operation
  * @extends {Expression}
  */
-const Operation = Expr.extends(function Operation(kind, docs, location) {
+module.exports = Expr.extends(KIND, function Operation(kind, docs, location) {
   Expr.apply(this, [kind || KIND, docs, location]);
 });
-
-module.exports = Operation;

@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Literal = require("./literal");
 const KIND = "encapsed";
@@ -14,7 +15,7 @@ const KIND = "encapsed";
  * @property {String} type - Defines the type of encapsed string (shell, heredoc, string)
  * @property {String|Null} label - The heredoc label, defined only when the type is heredoc
  */
-const Encapsed = Literal.extends(function Encapsed(
+const Encapsed = Literal.extends(KIND, function Encapsed(
   value,
   raw,
   type,

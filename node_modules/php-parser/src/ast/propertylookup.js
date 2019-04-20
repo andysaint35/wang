@@ -1,9 +1,10 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
 "use strict";
+
 const Lookup = require("./lookup");
 const KIND = "propertylookup";
 
@@ -12,7 +13,7 @@ const KIND = "propertylookup";
  * @constructor PropertyLookup
  * @extends {Lookup}
  */
-const PropertyLookup = Lookup.extends(function PropertyLookup(
+module.exports = Lookup.extends(KIND, function PropertyLookup(
   what,
   offset,
   docs,
@@ -20,5 +21,3 @@ const PropertyLookup = Lookup.extends(function PropertyLookup(
 ) {
   Lookup.apply(this, [KIND, what, offset, docs, location]);
 });
-
-module.exports = PropertyLookup;

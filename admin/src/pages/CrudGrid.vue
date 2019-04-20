@@ -78,7 +78,7 @@
               <v-btn v-if="options.edit !== false" dark="dark" fab="fab" success="success" small="small" @click.native.stop="showEdit(props.item)">
                 <v-icon>edit</v-icon>
               </v-btn>
-              <v-btn v-if="options.delete !== false" fab="fab" small="small" @click="removeConfirm(props.item)">
+              <v-btn v-if="options.delete !== false" fab="fab" small="small" @click.native.stop="removeConfirm(props.item)">
                 <v-icon>delete</v-icon>
               </v-btn>
             </td>
@@ -173,6 +173,9 @@ export default {
   data: getDefaultData,
 
   watch: {
+    'isShowConfirm' (val){
+      console.log(`isShowConfirm:${val}`);
+    },
     '$i18n.locale' (val) {
       this.fetchDb().then((res)=>{this.fetchGrid(res)})
     },
@@ -196,6 +199,7 @@ export default {
     // '$route.query': 'updateRoute'
   },
   methods: {
+    //获取单条数据的方法
     fetchForm (item) {
       this.$http.get(`/${this.collectionNumber}/getListSingle`, {
         params: {id: item._id, collection:this.collectionNumber}
@@ -217,6 +221,7 @@ export default {
         }
       })
     },
+    // 保存按钮
     onSaveEdit (res) {
       if (res.succeed && res.errorCode=='0000000') {
         this.isShowEdit = false
@@ -309,7 +314,7 @@ export default {
      // this.refresh();
       return value
     },
-
+    //获取列表数据
     fetchDb (){
       let listDataParams = Object.assign({}, this.dataParams, {
         curPageNo: this.pagination.page,
@@ -350,6 +355,7 @@ export default {
     removeConfirm (item){
       this.currentItem = item;
       this.isShowConfirm = true;
+   
     },
     remove () {
       let item = this.currentItem;

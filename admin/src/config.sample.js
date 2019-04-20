@@ -1,6 +1,6 @@
 const baseUrl = 'http://127.0.0.1:3500'
 const config = {
-  locale: 'en-US', // en-US, zh-CN
+  locale: 'zh-CN', // en-US, zh-CN
   url: baseUrl,
   ajaxUploadUrl: `${baseUrl}/api/admin/upload`,
   debug: {

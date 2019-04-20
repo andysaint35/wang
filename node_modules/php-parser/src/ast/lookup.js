@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Expr = require("./expression");
 const KIND = "lookup";
@@ -14,7 +15,7 @@ const KIND = "lookup";
  * @property {Expression} what
  * @property {Expression} offset
  */
-const Lookup = Expr.extends(function Lookup(
+module.exports = Expr.extends(KIND, function Lookup(
   kind,
   what,
   offset,
@@ -25,5 +26,3 @@ const Lookup = Expr.extends(function Lookup(
   this.what = what;
   this.offset = offset;
 });
-
-module.exports = Lookup;

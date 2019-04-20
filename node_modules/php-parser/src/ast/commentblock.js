@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Comment = require("./comment");
 const KIND = "commentblock";
@@ -12,12 +13,10 @@ const KIND = "commentblock";
  * @constructor CommentBlock
  * @extends {Comment}
  */
-const CommentBlock = Comment.extends(function CommentBlock(
+module.exports = Comment.extends(KIND, function CommentBlock(
   value,
   docs,
   location
 ) {
   Comment.apply(this, [KIND, value, docs, location]);
 });
-
-module.exports = CommentBlock;

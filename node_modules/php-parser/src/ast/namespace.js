@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Block = require("./block");
 const KIND = "namespace";
@@ -14,7 +15,7 @@ const KIND = "namespace";
  * @property {String} name
  * @property {Boolean} withBrackets
  */
-const Namespace = Block.extends(function Namespace(
+module.exports = Block.extends(KIND, function Namespace(
   name,
   children,
   withBrackets,
@@ -25,5 +26,3 @@ const Namespace = Block.extends(function Namespace(
   this.name = name;
   this.withBrackets = withBrackets || false;
 });
-
-module.exports = Namespace;

@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Literal = require("./literal");
 const KIND = "boolean";
@@ -12,8 +13,11 @@ const KIND = "boolean";
  * @constructor Boolean
  * @extends {Literal}
  */
-const Boolean = Literal.extends(function Boolean(value, raw, docs, location) {
+module.exports = Literal.extends(KIND, function Boolean(
+  value,
+  raw,
+  docs,
+  location
+) {
   Literal.apply(this, [KIND, value, raw, docs, location]);
 });
-
-module.exports = Boolean;

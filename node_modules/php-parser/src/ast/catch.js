@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -17,7 +17,7 @@ const KIND = "catch";
  * @property {Statement} body
  * @see http://php.net/manual/en/language.exceptions.php
  */
-const Catch = Statement.extends(function Catch(
+module.exports = Statement.extends(KIND, function Catch(
   body,
   what,
   variable,
@@ -29,5 +29,3 @@ const Catch = Statement.extends(function Catch(
   this.what = what;
   this.variable = variable;
 });
-
-module.exports = Catch;

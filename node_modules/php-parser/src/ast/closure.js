@@ -1,16 +1,17 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
 "use strict";
-const Statement = require("./statement");
+
+const Expression = require("./expression");
 const KIND = "closure";
 
 /**
  * Defines a closure
  * @constructor Closure
- * @extends {Statement}
+ * @extends {Expression}
  * @property {Parameter[]} arguments
  * @property {Variable[]} uses
  * @property {Identifier} type
@@ -19,7 +20,7 @@ const KIND = "closure";
  * @property {Block|null} body
  * @property {boolean} isStatic
  */
-const Closure = Statement.extends(function Closure(
+module.exports = Expression.extends(KIND, function Closure(
   args,
   byref,
   uses,
@@ -29,7 +30,7 @@ const Closure = Statement.extends(function Closure(
   docs,
   location
 ) {
-  Statement.apply(this, [KIND, docs, location]);
+  Expression.apply(this, [KIND, docs, location]);
   this.uses = uses;
   this.arguments = args;
   this.byref = byref;
@@ -38,5 +39,3 @@ const Closure = Statement.extends(function Closure(
   this.isStatic = isStatic || false;
   this.body = null;
 });
-
-module.exports = Closure;

@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Declaration = require("./declaration");
 const KIND = "interface";
@@ -14,7 +15,7 @@ const KIND = "interface";
  * @property {Identifier[]} extends
  * @property {Declaration[]} body
  */
-const Interface = Declaration.extends(function Interface(
+module.exports = Declaration.extends(KIND, function Interface(
   name,
   ext,
   body,
@@ -25,5 +26,3 @@ const Interface = Declaration.extends(function Interface(
   this.extends = ext;
   this.body = body;
 });
-
-module.exports = Interface;

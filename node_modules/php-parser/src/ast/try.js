@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -16,7 +16,7 @@ const KIND = "try";
  * @property {Catch[]} catches
  * @property {Block} allways
  */
-const Try = Statement.extends(function Try(
+module.exports = Statement.extends(KIND, function Try(
   body,
   catches,
   always,
@@ -28,5 +28,3 @@ const Try = Statement.extends(function Try(
   this.catches = catches;
   this.always = always;
 });
-
-module.exports = Try;

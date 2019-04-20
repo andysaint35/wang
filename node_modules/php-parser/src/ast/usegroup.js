@@ -1,9 +1,10 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
 "use strict";
+
 const Statement = require("./statement");
 const KIND = "usegroup";
 
@@ -17,7 +18,7 @@ const KIND = "usegroup";
  * @see {Namespace}
  * @see http://php.net/manual/en/language.namespaces.importing.php
  */
-const UseGroup = Statement.extends(function UseGroup(
+module.exports = Statement.extends(KIND, function UseGroup(
   name,
   type,
   items,
@@ -29,5 +30,3 @@ const UseGroup = Statement.extends(function UseGroup(
   this.type = type;
   this.items = items;
 });
-
-module.exports = UseGroup;

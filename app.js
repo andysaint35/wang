@@ -17,6 +17,7 @@ const signAuth = require('./services/sign-auth.service');
 const config = require('./config/environment');
 const xtpl = require('xtpl');
 const app = express();
+
 // replace native Promise for request-context
 global.Promise = require('bluebird');
 
@@ -32,7 +33,9 @@ app.set('view engine', 'xtpl');
 
 // uncomment after placing your favicon in /public
 // app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(bodyParser.json({limit: '5mb'}));
+app.use(bodyParser.json({
+  limit: '5mb'
+}));
 app.use(bodyParser.urlencoded({
   extended: false
 }));
@@ -43,6 +46,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 app.use(ua.express());
 app.use(requestIp.mw());
+
+
+//const io = require('socket.io')();
+
 // app.use(function (req, res, next) {
 //   if (req.clientIp === '::1') { // local test, do mock
 //     req.clientIp = randomIp('218.1.33.190', 16, 24);
@@ -58,9 +65,9 @@ if (config.signAuth) {
 
 //errorHandler
 if (app.get('env') === 'prod' || app.get('env') === 'pre') {
-  app.use((req, res, next)=> {
+  app.use((req, res, next) => {
     let json = res.json;
-    res.json = result=> {
+    res.json = result => {
       if (result && result.errorCode === '9999999') {
         result.errorMessage = '系统繁忙';
       }
@@ -77,6 +84,7 @@ app.use('/wechat', require('./routes/wechat'));
 
 
 app.use('/api/wechat', require('./api/wechat/wechat.service').setOa(), require('./api/wechat'));
+
 app.use('/api/admin/upload', require('./api/admin/db.controller').upload);
 app.use('/api/admin/:dbNumber', require('./api/admin/getDB'), require('./api/admin'));
 
@@ -108,7 +116,7 @@ app.use(function (req, res, next) {
 // error handlers
 app.use(function (err, req, res, next) {
   const isProd = app.get('env') === 'prod';
-  
+
   if (err.name === 'JsonSchemaValidation') {
     // Set a bad request http response status or whatever you want
     res.status(400);
@@ -119,14 +127,14 @@ app.use(function (err, req, res, next) {
       jsonSchemaValidation: true,
       validations: err.validations // All of your validation information
     };
-  
+
     res.json(responseData);
   } else {
     const status = err.status || err.response && err.response.status || 500;
-    
+
     res.status(status);
-  
-    if(isProd) {
+
+    if (isProd) {
       res.end();
     } else {
       err.status = status;
@@ -136,7 +144,10 @@ app.use(function (err, req, res, next) {
       });
     }
   }
-
 });
+
+//add socket
+// app.io = io;
+// require("./services/socket/socket.service")(io);
 
 module.exports = app;

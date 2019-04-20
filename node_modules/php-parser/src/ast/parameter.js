@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Declaration = require("./declaration");
 const KIND = "parameter";
@@ -17,7 +18,7 @@ const KIND = "parameter";
  * @property {boolean} variadic
  * @property {boolean} nullable
  */
-const Parameter = Declaration.extends(function Parameter(
+module.exports = Declaration.extends(KIND, function Parameter(
   name,
   type,
   value,
@@ -34,5 +35,3 @@ const Parameter = Declaration.extends(function Parameter(
   this.variadic = isVariadic;
   this.nullable = nullable;
 });
-
-module.exports = Parameter;

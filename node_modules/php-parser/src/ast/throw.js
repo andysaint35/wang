@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -14,9 +14,7 @@ const KIND = "throw";
  * @extends {Statement}
  * @property {Expression} what
  */
-const Throw = Statement.extends(function Throw(what, docs, location) {
+module.exports = Statement.extends(KIND, function Throw(what, docs, location) {
   Statement.apply(this, [KIND, docs, location]);
   this.what = what;
 });
-
-module.exports = Throw;

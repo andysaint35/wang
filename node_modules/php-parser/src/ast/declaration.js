@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Statement = require("./statement");
 const KIND = "declaration";
@@ -16,9 +17,9 @@ const IS_PRIVATE = "private";
  * A declaration statement (function, class, interface...)
  * @constructor Declaration
  * @extends {Statement}
- * @property {string} name
+ * @property {Identifier|string} name
  */
-const Declaration = Statement.extends(function Declaration(
+const Declaration = Statement.extends(KIND, function Declaration(
   kind,
   name,
   docs,
@@ -39,6 +40,8 @@ Declaration.prototype.parseFlags = function(flags) {
   if (this.kind !== "class") {
     if (flags[0] === -1) {
       this.visibility = IS_UNDEFINED;
+    } else if (flags[0] === null) {
+      this.visibility = null;
     } else if (flags[0] === 0) {
       this.visibility = IS_PUBLIC;
     } else if (flags[0] === 1) {

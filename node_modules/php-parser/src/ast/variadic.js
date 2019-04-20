@@ -1,10 +1,11 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
 "use strict";
-const Expr = require("./expression");
+
+const Expression = require("./expression");
 const KIND = "variadic";
 
 /**
@@ -14,9 +15,11 @@ const KIND = "variadic";
  * @property {Array|Expression} what
  * @see https://wiki.php.net/rfc/argument_unpacking
  */
-const variadic = Expr.extends(function variadic(what, docs, location) {
-  Expr.apply(this, [KIND, docs, location]);
+module.exports = Expression.extends(KIND, function variadic(
+  what,
+  docs,
+  location
+) {
+  Expression.apply(this, [KIND, docs, location]);
   this.what = what;
 });
-
-module.exports = variadic;

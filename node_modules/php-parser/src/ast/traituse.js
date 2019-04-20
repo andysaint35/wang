@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Node = require("./node");
 const KIND = "traituse";
@@ -14,7 +15,7 @@ const KIND = "traituse";
  * @property {Identifier[]} traits
  * @property {Node[]|null} adaptations
  */
-const TraitUse = Node.extends(function TraitUse(
+module.exports = Node.extends(KIND, function TraitUse(
   traits,
   adaptations,
   docs,
@@ -24,5 +25,3 @@ const TraitUse = Node.extends(function TraitUse(
   this.traits = traits;
   this.adaptations = adaptations;
 });
-
-module.exports = TraitUse;

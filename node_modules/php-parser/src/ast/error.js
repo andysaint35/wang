@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Node = require("./node");
 const KIND = "error";
@@ -16,7 +17,7 @@ const KIND = "error";
  * @property {number|string} token
  * @property {string|array} expected
  */
-const Error = Node.extends(function Error(
+module.exports = Node.extends(KIND, function Error(
   message,
   token,
   line,
@@ -30,5 +31,3 @@ const Error = Node.extends(function Error(
   this.line = line;
   this.expected = expected;
 });
-
-module.exports = Error;

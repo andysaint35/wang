@@ -1,8 +1,9 @@
 /*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const lexer = require("./lexer");
 const parser = require("./parser");
@@ -10,7 +11,7 @@ const tokens = require("./tokens");
 const AST = require("./ast");
 
 /**
- * @private combine structures
+ * @private
  */
 function combine(src, to) {
   const keys = Object.keys(src);
@@ -36,8 +37,9 @@ function combine(src, to) {
 /**
  * Initialise a new parser instance with the specified options
  *
- * Usage :
- * ```js
+ * @class
+ * @tutorial Engine
+ * @example
  * var parser = require('php-parser');
  * var instance = new parser({
  *   parser: {
@@ -57,11 +59,8 @@ function combine(src, to) {
  * var evalAST = instance.parseEval('some php code');
  * var codeAST = instance.parseCode('<?php some php code', 'foo.php');
  * var tokens = instance.tokenGetAll('<?php some php code');
- * ```
  *
- * @constructor {Engine}
  * @param {Object} options - List of options
- *
  * @property {Lexer} lexer
  * @property {Parser} parser
  * @property {AST} ast
@@ -132,7 +131,7 @@ engine.prototype.parseEval = function(buffer) {
  * @private
  */
 engine.parseCode = function(buffer, filename, options) {
-  if (typeof filename === "object") {
+  if (typeof filename === "object" && !options) {
     // retro-compatibility
     options = filename;
     filename = "unknown";
@@ -205,5 +204,13 @@ engine.prototype.tokenGetAll = function(buffer) {
 
 // exports the function
 module.exports = engine;
+
+// makes libraries public
+module.exports.tokens = tokens;
+module.exports.lexer = lexer;
+module.exports.AST = AST;
+module.exports.parser = parser;
+module.exports.combine = combine;
+
 // allow the default export in index.d.ts
 module.exports.default = engine;

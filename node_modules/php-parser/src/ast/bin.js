@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -15,11 +15,15 @@ const KIND = "bin";
  * @property {Expression} left
  * @property {Expression} right
  */
-const Bin = Operation.extends(function Bin(type, left, right, docs, location) {
+module.exports = Operation.extends(KIND, function Bin(
+  type,
+  left,
+  right,
+  docs,
+  location
+) {
   Operation.apply(this, [KIND, docs, location]);
   this.type = type;
   this.left = left;
   this.right = right;
 });
-
-module.exports = Bin;

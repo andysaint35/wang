@@ -31,10 +31,20 @@ Vue.use(VueTimeago, {
 })
 
 import Dropzone from 'vue2-dropzone' //上传插件
+Vue.component('dropzone', Dropzone)
 import 'vue2-dropzone/dist/vue2Dropzone.min.css'
 import VueQuillEditor from 'vue-quill-editor' // 富文本编辑框
 Vue.use(VueQuillEditor)
-Vue.component('dropzone', Dropzone)
+
+//import VueSocketio from 'vue-socket.io'; //socket.io
+
+// Vue.use(new VueSocketio({
+//   debug: true,
+//   connection: 'http://127.0.0.1:3500',
+//   options: {
+//     transports: ['websocket']
+//   }
+// }));
 
 // import validator from 'indicative'
 import validator from 'Validator'
@@ -58,15 +68,15 @@ new Vue({
   store,
   router,
   render: h => h(App),
-  mounted () {
+  mounted() {
 
   },
   methods: {
-    back () {
+    back() {
       this.$router.go(-1)
     }
   },
-  created () {
+  created() {
     // this.$http.get('/users/1').then(({data}) => console.log(data))
     global.$t = this.$t
     // fetch menu from server

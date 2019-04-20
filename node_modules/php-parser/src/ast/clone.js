@@ -1,21 +1,20 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Statement = require("./statement");
+const Expression = require("./expression");
 const KIND = "clone";
 
 /**
  * Defines a clone call
  * @constructor Clone
- * @extends {Statement}
+ * @extends {Expression}
  * @property {Expression} what
  */
-const Clone = Statement.extends(function Clone(what, docs, location) {
-  Statement.apply(this, [KIND, docs, location]);
+module.exports = Expression.extends(KIND, function Clone(what, docs, location) {
+  Expression.apply(this, [KIND, docs, location]);
   this.what = what;
 });
-
-module.exports = Clone;

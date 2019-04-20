@@ -1,21 +1,26 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Sys = require("./sys");
+const Statement = require("./statement");
 const KIND = "echo";
 
 /**
  * Defines system based call
  * @constructor Echo
  * @property {boolean} shortForm
- * @extends {Sys}
+ * @extends {Statement}
  */
-const Echo = Sys.extends(function Echo(args, shortForm, docs, location) {
-  Sys.apply(this, [KIND, args, docs, location]);
+module.exports = Statement.extends(KIND, function Echo(
+  expressions,
+  shortForm,
+  docs,
+  location
+) {
+  Statement.apply(this, [KIND, docs, location]);
   this.shortForm = shortForm;
+  this.expressions = expressions;
 });
-
-module.exports = Echo;

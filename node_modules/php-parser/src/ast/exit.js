@@ -1,23 +1,27 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Statement = require("./statement");
+const Expression = require("./expression");
 const KIND = "exit";
 
 /**
  * Defines an exit / die call
  * @constructor Exit
- * @extends {Statement}
+ * @extends {Expression}
  * @property {Node|null} status
  * @property {Boolean} useDie
  */
-const Exit = Statement.extends(function Exit(status, useDie, docs, location) {
-  Statement.apply(this, [KIND, docs, location]);
+module.exports = Expression.extends(KIND, function Exit(
+  status,
+  useDie,
+  docs,
+  location
+) {
+  Expression.apply(this, [KIND, docs, location]);
   this.status = status;
   this.useDie = useDie;
 });
-
-module.exports = Exit;

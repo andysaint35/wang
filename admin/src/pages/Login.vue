@@ -1,58 +1,85 @@
 <template>
   <div>
-    <v-dialog :value="true" persistent="">
-      <v-card hover="" style="background:white">
-        <v-card-row class="deep-purple darken-1">
-          <v-card-title class="white--text">
-            <div class="text-xs-center"> {{$t("Login")}}</div>
-          </v-card-title>
-        </v-card-row>
-        <v-card-row>
-          <v-card-text class="pt-4">
-            <v-form v-model="model" action="login" :fields="fields" @success="onSuccess" submitButtonText="Login">
-              <div class="flex pb-2">
-                <small>{{$t("* Indicates required field")}}</small>
-              </div>
-            </v-form>
-          </v-card-text>
-        </v-card-row>
+
+    <v-dialog
+      :value="true"
+      persistent=""
+    >
+
+      <v-card style="background:#fff">
+        <!-- <v-card-row class="deep-purple darken-1"> -->
+        <v-card-title class="white--text deep-purple darken-1">
+          <div class="text-xs-center"> {{$t("Login")}}</div>
+        </v-card-title>
+        <!-- </v-card-row> -->
+        <!-- <v-card-row> -->
+        <v-card-text class="pt-4">
+          <v-form
+            v-model="model"
+            action="/0/login"
+            :fields="fields"
+            @success="onSuccess"
+            submitButtonText="Login"
+            urlResource="login"
+          >
+
+          </v-form>
+          <v-alert
+            error="error"
+            v-model="loginFail.show"
+          >{{loginFail.message}}</v-alert>
+
+        </v-card-text>
+        <!-- </v-card-row> -->
       </v-card>
     </v-dialog>
   </div>
 </template>
 
 <style>
-  body {
-    background: #666 !important;
-  }
+body {
+  background: #666 !important;
+}
 </style>
 
 <script>
-
-  export default {
-
-    data () {
-      return {
-        model: {
-          username: 'admin',
-          password: '123456'
-        },
-
-        fields: {
-          username: {label: 'Username'},
-          password: {label: 'Password', type: 'password'}
-        },
-        show: true
+export default {
+  data() {
+    return {
+      model: {
+        username: "",
+        password: ""
+      },
+      fields: {
+        username: { label: "Username" },
+        password: { label: "Password", type: "password" }
+      },
+      show: true,
+      loginFail: {
+        show: false,
+        message: ""
       }
-    },
-    methods: {
-      onSuccess (data) {
-        this.$store.commit('setAuth', data)
-        this.$router.replace('/')
+    };
+  },
+  methods: {
+    onSuccess(res) {
+      this.loginFail.show = false;
+      console.log("res", res);
+      if (res.succeed && res.data.length > 0) {
+        sessionStorage.setItem("setAuth", res.data[0]);
+        this.$store.commit("setAuth", res.data[0]);
+        this.$router.replace("/");
+      } else {
+        this.loginFail = {
+          show: true,
+          message: "用户名或密码不正确"
+        };
       }
-    },
-
-    mounted () {
+      //this.$store.commit('setAuth', data)
+      //this.$router.replace('/')
     }
-  }
+  },
+
+  mounted() {}
+};
 </script>

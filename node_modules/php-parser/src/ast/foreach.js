@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -19,7 +19,7 @@ const KIND = "foreach";
  * @property {boolean} shortForm
  * @see http://php.net/manual/en/control-structures.foreach.php
  */
-const Foreach = Statement.extends(function Foreach(
+module.exports = Statement.extends(KIND, function Foreach(
   source,
   key,
   value,
@@ -35,5 +35,3 @@ const Foreach = Statement.extends(function Foreach(
   this.shortForm = shortForm;
   this.body = body;
 });
-
-module.exports = Foreach;

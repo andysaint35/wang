@@ -25,7 +25,7 @@ const router = new Router({
 
     route('/', 'Main', null, [
       route('/', 'Home', 'home'),
-      route('/crud/:resource', 'CrudGrid', 'grid'),
+      route('/crud/:resource', 'CrudGrid', 'grid'), //列表页   /pages/CrudGrid.vue
       route('/crud/:resource/:id/edit', 'CrudForm', 'edit'),
       route('/crud/:resource/create', 'CrudForm', 'create'),
       route('/crud/:resource/:id/:action', 'CrudForm', 'action'),

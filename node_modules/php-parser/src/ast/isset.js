@@ -1,19 +1,23 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Sys = require("./sys");
+const Expression = require("./expression");
 const KIND = "isset";
 
 /**
  * Defines an isset call
  * @constructor Isset
- * @extends {Sys}
+ * @extends {Expression}
  */
-const Isset = Sys.extends(function Isset(args, docs, location) {
-  Sys.apply(this, [KIND, args, docs, location]);
+module.exports = Expression.extends(KIND, function Isset(
+  variables,
+  docs,
+  location
+) {
+  Expression.apply(this, [KIND, docs, location]);
+  this.variables = variables;
 });
-
-module.exports = Isset;

@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -15,10 +15,13 @@ const KIND = "unary";
  * @property {String} type
  * @property {Expression} what
  */
-const Unary = Operation.extends(function Unary(type, what, docs, location) {
+module.exports = Operation.extends(KIND, function Unary(
+  type,
+  what,
+  docs,
+  location
+) {
   Operation.apply(this, [KIND, docs, location]);
   this.type = type;
   this.what = what;
 });
-
-module.exports = Unary;

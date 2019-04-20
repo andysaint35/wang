@@ -1,23 +1,27 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
-const Node = require("./node");
+const Expression = require("./expression");
 const KIND = "entry";
 
 /**
  * An array entry - see [Array](#array)
  * @constructor Entry
- * @extends {Node}
+ * @extends {Expression}
  * @property {Node|null} key The entry key/offset
  * @property {Node} value The entry value
  */
-const Entry = Node.extends(function Entry(key, value, docs, location) {
-  Node.apply(this, [KIND, docs, location]);
+module.exports = Expression.extends(KIND, function Entry(
+  key,
+  value,
+  docs,
+  location
+) {
+  Expression.apply(this, [KIND, docs, location]);
   this.key = key;
   this.value = value;
 });
-
-module.exports = Entry;

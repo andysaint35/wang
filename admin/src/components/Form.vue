@@ -1,32 +1,80 @@
 <template>
 
   <div>
-    <form :action="action" @submit.prevent="onSubmit">
-      <v-tabs grow="grow" scroll-bars="scroll-bars" v-model="active" dark="dark" v-if="groupBy">
+    <form
+      :action="action"
+      @submit.prevent="onSubmit"
+    >
+      <v-tabs
+        grow="grow"
+        scroll-bars="scroll-bars"
+        v-model="active"
+        dark="dark"
+        v-if="groupBy"
+      >
         <v-tabs-bar slot="activators">
-          <v-tabs-item v-for="(field, key) in group.parents" :key="key" :href="'tab-' + key" ripple="ripple"></v-tabs-item>
+          <v-tabs-item
+            v-for="(field, key) in group.parents"
+            :key="key"
+            :href="'tab-' + key"
+            ripple="ripple"
+          ></v-tabs-item>
           <v-tabs-slider></v-tabs-slider>
         </v-tabs-bar>
-        <v-tabs-content v-for="(fields, key) in group.children" :key="key" :id="'tab-' + key">
+        <v-tabs-content
+          v-for="(fields, key) in group.children"
+          :key="key"
+          :id="'tab-' + key"
+        >
           <v-card flat="flat">
             <v-card-text>
               <!--name 为key  field为value-->
-              <v-field v-for="(field, name) in fields" :key="name" :name="name" :field="field" v-model="model[name]"></v-field>
+              <v-field
+                v-for="(field, name) in fields"
+                :key="name"
+                :name="name"
+                :field="field"
+                v-model="model[name]"
+              ></v-field>
             </v-card-text>
           </v-card>
         </v-tabs-content>
       </v-tabs>
 
-      <v-layout v-bind="{[inline? 'row': 'column']: true}" v-if="!groupBy">
-        <v-field v-for="(field, name) in fields" :key="name" :name="name" :field="field" v-model="model[name]"></v-field>
-        <v-alert class="py-2" error="error" v-model="hasError">
+      <v-layout
+        v-bind="{[inline? 'row': 'column']: true}"
+        v-if="!groupBy"
+      >
+        <v-field
+          v-for="(field, name) in fields"
+          :key="name"
+          :name="name"
+          :field="field"
+          v-model="model[name]"
+        ></v-field>
+        <v-alert
+          class="py-2"
+          error="error"
+          v-model="hasError"
+        >
           <div v-for="error in errors"> {{error.message}}</div>
         </v-alert>
         <slot></slot>
-        <v-flex class="pt-2 actions" xs12="xs12">
+        <v-flex
+          class="pt-2 actions"
+          xs12="xs12"
+        >
           <slot name="buttons">
-            <v-btn class="ma-0" primary="primary" dark="dark" type="submit">{{$t(submitButtonText)}}
-              <v-icon right="right" dark="dark">{{submitButtonIcon}}  </v-icon>
+            <v-btn
+              class="ma-0"
+              primary="primary"
+              dark="dark"
+              type="submit"
+            >{{$t(submitButtonText)}}
+              <v-icon
+                right="right"
+                dark="dark"
+              >{{submitButtonIcon}} </v-icon>
 
             </v-btn>
           </slot>
@@ -56,22 +104,22 @@ export default {
     submitButtonText: {
       required: false,
       type: String,
-      default: 'Submit'
+      default: "Submit"
     },
     submitButtonIcon: {
       required: false,
       type: String,
-      default: 'send'
+      default: "send"
     },
     method: {
       required: false,
       type: String,
-      default: 'post'
+      default: "post"
     },
     value: {
       required: false,
       type: Object,
-      default: () => { }
+      default: () => {}
     },
     fields: {
       required: true,
@@ -81,125 +129,117 @@ export default {
     rules: {
       required: false,
       type: Object,
-      default: () => { }
+      default: () => {}
     },
     messages: {
       required: false,
       type: Object,
-      default: () => { }
+      default: () => {}
     },
-    urlResource:{
-      type:String
+    urlResource: {
+      type: String
     }
-
   },
-  data () {
+  data() {
     return {
       model: this.value,
       hasError: false,
       errors: [],
-      message: ''
-    }
+      message: ""
+    };
   },
 
   computed: {
-    group () {
+    group() {
       if (!this.groupBy) {
-        return null
+        return null;
       }
-      let parents = {}
-      let children = {}
+      let parents = {};
+      let children = {};
       for (let k in this.fields) {
-
-        let field = this.fields[k]  // object[value]
-        let ref = field[this.groupBy] //object[value][]
-        let parentKey = field.id
-        if (ref === null) { // is parent
-          parents[parentKey] = field
-        } else { // is child
+        let field = this.fields[k]; // object[value]
+        let ref = field[this.groupBy]; //object[value][]
+        let parentKey = field.id;
+        if (ref === null) {
+          // is parent
+          parents[parentKey] = field;
+        } else {
+          // is child
           if (!children[ref]) {
-            children[ref] = {}
+            children[ref] = {};
           }
-          children[ref][k] = field
+          children[ref][k] = field;
         }
       }
-      return {parents, children}
+      return { parents, children };
     },
 
-    autoSubmit () {
-      return !!this.action
+    autoSubmit() {
+      return !!this.action;
     }
   },
   watch: {
-    'value' (val) {
-      this.model = val
+    value(val) {
+      this.model = val;
     },
-    'model': 'updateFields'
+    model: "updateFields"
   },
   methods: {
-
-    getGroupedFields () { },
-    getFieldError (fieldName) {
+    getGroupedFields() {},
+    getFieldError(fieldName) {
       for (let k in this.errors) {
-        let error = this.errors[k]
+        let error = this.errors[k];
         if (error.field === fieldName) {
-          return error.message
+          return error.message;
         }
       }
     },
-    updateFields () {
+    updateFields() {},
 
-    },
-
-    onSubmit () {
+    onSubmit() {
       let valid = require(`../formSchema/${this.urlResource}/validate.js`);
       let errors = valid.validate(this.model);
       if (!errors.length) {
-        this.$emit('input', this.model)
+        this.$emit("input", this.model);
         if (!this.autoSubmit) {
-          this.$emit('submit')
-          return false
+          this.$emit("submit");
+          return false;
         }
 
-        this.$http[this.method](this.action, this.model).then(({ data }) => {
-          this.$emit('success', data)
-          this.hasError = false
-        }).catch(({ response }) => {
-          let { status, data } = response
-          this.hasError = true
-          if (data.message) {
-            this.errors = [data]
-          }
-          switch (status) {
-            case 422:
-
-              this.errors = data
-              break
-            default:
-
-          }
-          this.$emit('error', status, data)
-        })
+        this.$http[this.method](this.action, this.model)
+          .then(({ data }) => {
+            this.$emit("success", data);
+            this.hasError = false;
+          })
+          .catch(({ response }) => {
+            let { status, data } = response;
+            this.hasError = true;
+            if (data.message) {
+              this.errors = [data];
+            }
+            switch (status) {
+              case 422:
+                this.errors = data;
+                break;
+              default:
+            }
+            this.$emit("error", status, data);
+          });
       } else {
-        console.log("error",errors);
-        this.hasError = true
-        this.errors = errors
-        this.$emit('error', errors)
+        console.log("error", errors);
+        this.hasError = true;
+        this.errors = errors;
+        this.$emit("error", errors);
         // this.$bus.showMessage('error', 'error')
       }
     }
   },
-  mounted () {
-
+  mounted() {
     //console.log("form mounted");
-
   },
 
-
-  created () {
-
+  created() {
     //console.log("form created");
-
     // global.validator.extend('unique', function (data, field, message, args, get) {
     //   return new Promise(function (resolve, reject) {
     //     // const fieldValue = get(data, field)
@@ -207,5 +247,5 @@ export default {
     //   })
     // }, this.$t('Field should be unique.'))
   }
-}
+};
 </script>

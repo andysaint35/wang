@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -16,7 +16,7 @@ const KIND = "while";
  * @property {Statement} body
  * @property {boolean} shortForm
  */
-const While = Statement.extends(function While(
+module.exports = Statement.extends(KIND, function While(
   test,
   body,
   shortForm,
@@ -28,5 +28,3 @@ const While = Statement.extends(function While(
   this.body = body;
   this.shortForm = shortForm;
 });
-
-module.exports = While;

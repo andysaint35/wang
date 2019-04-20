@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -15,9 +15,7 @@ const KIND = "goto";
  * @property {String} label
  * @see {Label}
  */
-const Goto = Statement.extends(function Goto(label, docs, location) {
+module.exports = Statement.extends(KIND, function Goto(label, docs, location) {
   Statement.apply(this, [KIND, docs, location]);
   this.label = label;
 });
-
-module.exports = Goto;

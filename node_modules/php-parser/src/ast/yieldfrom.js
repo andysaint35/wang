@@ -1,5 +1,5 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
@@ -15,9 +15,11 @@ const KIND = "yieldfrom";
  * @property {Expression} value
  * @see http://php.net/manual/en/language.generators.syntax.php
  */
-const YieldFrom = Expression.extends(function YieldFrom(value, docs, location) {
+module.exports = Expression.extends(KIND, function YieldFrom(
+  value,
+  docs,
+  location
+) {
   Expression.apply(this, [KIND, docs, location]);
   this.value = value;
 });
-
-module.exports = YieldFrom;

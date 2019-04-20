@@ -1,8 +1,9 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
+"use strict";
 
 const Block = require("./block");
 const KIND = "declare";
@@ -11,19 +12,19 @@ const KIND = "declare";
  * The declare construct is used to set execution directives for a block of code
  * @constructor Declare
  * @extends {Block}
- * @property {Expression[]} what
+ * @property {Array[]} directives
  * @property {String} mode
  * @see http://php.net/manual/en/control-structures.declare.php
  */
-const Declare = Block.extends(function Declare(
-  what,
+const Declare = Block.extends(KIND, function Declare(
+  directives,
   body,
   mode,
   docs,
   location
 ) {
   Block.apply(this, [KIND, body, docs, location]);
-  this.what = what;
+  this.directives = directives;
   this.mode = mode;
 });
 

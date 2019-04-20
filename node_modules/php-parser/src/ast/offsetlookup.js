@@ -1,9 +1,10 @@
-/*!
- * Copyright (C) 2017 Glayzzle (BSD3 License)
+/**
+ * Copyright (C) 2018 Glayzzle (BSD3 License)
  * @authors https://github.com/glayzzle/php-parser/graphs/contributors
  * @url http://glayzzle.com
  */
 "use strict";
+
 const Lookup = require("./lookup");
 const KIND = "offsetlookup";
 
@@ -12,7 +13,7 @@ const KIND = "offsetlookup";
  * @constructor OffsetLookup
  * @extends {Lookup}
  */
-const OffsetLookup = Lookup.extends(function OffsetLookup(
+module.exports = Lookup.extends(KIND, function OffsetLookup(
   what,
   offset,
   docs,
@@ -20,5 +21,3 @@ const OffsetLookup = Lookup.extends(function OffsetLookup(
 ) {
   Lookup.apply(this, [KIND, what, offset, docs, location]);
 });
-
-module.exports = OffsetLookup;
