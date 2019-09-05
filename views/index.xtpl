@@ -14,26 +14,33 @@
   crossorigin="anonymous"></script>
 <body>
 
-<div id="content" style="height:500px; width:100%; background:#f1f1f1">
+<div style="text-align:center">
+<h1>h5 生成协议代码</h1>
+<form onsubmit="return checkForm()" action="/api/vj/docxtohtml" enctype="multipart/form-data" method="post">
+  <input type="file" id="upload" name="uploadDoc" /><br />
+  <br />
 
+  <input placeholder="输入文件名" id="name" name="name"  />
+<br />
+  <br />
+  <input type="submit" value="确定" />
+</form>
 </div>   
-<input id="t1" type="input" />
-<input id="t2" type="button" value="提交" />
+
 <script>
-
-    var socket = io.connect('http://127.0.0.1:3500/test',{
-               transports:['websocket']
-    });
-                    socket.on('fromService', function (data) {
-  $("#content").append(data+'<br />');
-  });
-
-$("#t2").on("click", function(){
-    var self = $("#t1");
-    socket.emit('fromClient', self.val());
-   $("#content").append('我：'+self.val()+'<br />');
-})
-  
+  function checkForm(){
+    if(!$("#upload").val()){
+      alert("请上传doc文件");
+       return false;
+    }
+    if(!$("#name").val()){
+      alert("请输入文件名");
+      return false;
+    }
+    else{
+      return true
+    }
+  }
   
 </script>
 

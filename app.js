@@ -33,12 +33,16 @@ app.set('view engine', 'xtpl');
 
 // uncomment after placing your favicon in /public
 // app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(bodyParser.json({
-  limit: '5mb'
-}));
-app.use(bodyParser.urlencoded({
-  extended: false
-}));
+app.use(
+  bodyParser.json({
+    limit: '5mb'
+  })
+);
+app.use(
+  bodyParser.urlencoded({
+    extended: false
+  })
+);
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -46,7 +50,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 app.use(ua.express());
 app.use(requestIp.mw());
-
 
 //const io = require('socket.io')();
 
@@ -81,13 +84,20 @@ app.use('/', require('./routes/index'));
 app.use('/admin', require('./routes/admin/index'));
 app.use('/wechat', require('./routes/wechat'));
 
-
-
-app.use('/api/wechat', require('./api/wechat/wechat.service').setOa(), require('./api/wechat'));
+app.use(
+  '/api/wechat',
+  require('./api/wechat/wechat.service').setOa(),
+  require('./api/wechat')
+);
 
 app.use('/api/admin/upload', require('./api/admin/db.controller').upload);
-app.use('/api/admin/:dbNumber', require('./api/admin/getDB'), require('./api/admin'));
+app.use(
+  '/api/admin/:dbNumber',
+  require('./api/admin/getDB'),
+  require('./api/admin')
+);
 
+app.use('/api/vj', require('./api/vj'));
 // serve api doc
 // if (app.get('env') !== 'prod') {
 //   app.use('/api-doc', express.static(path.join(__dirname, 'apidoc')));
@@ -104,17 +114,15 @@ app.use('/api/admin/:dbNumber', require('./api/admin/getDB'), require('./api/adm
 //   });
 // }
 
-
-
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
+app.use(function(req, res, next) {
   let err = new Error('Not Found');
   err.status = 404;
   next(err);
 });
 
 // error handlers
-app.use(function (err, req, res, next) {
+app.use(function(err, req, res, next) {
   const isProd = app.get('env') === 'prod';
 
   if (err.name === 'JsonSchemaValidation') {
@@ -130,7 +138,7 @@ app.use(function (err, req, res, next) {
 
     res.json(responseData);
   } else {
-    const status = err.status || err.response && err.response.status || 500;
+    const status = err.status || (err.response && err.response.status) || 500;
 
     res.status(status);
 
