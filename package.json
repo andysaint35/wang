@@ -40,7 +40,7 @@
     "php-session-unserialize": "^0.2.1",
     "php-unparser": "^0.2.9",
     "php-writer": "^3.0.0",
-    "pug": "^2.0.0-rc.4",
+    "pug": "^3.0.1",
     "qs": "^6.5.1",
     "random-ip": "0.0.1",
     "randomstring": "^1.1.5",
