@@ -14,7 +14,7 @@
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "fs": "0.0.1-security",
-    "i": "^0.3.5",
+    "i": "^0.3.7",
     "indicative": "^2.2.1",
     "qs": "^6.6.0",
     "socket.io": "^2.2.0",
