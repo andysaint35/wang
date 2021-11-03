@@ -31,7 +31,7 @@
     "vuetify": "^0.14.11"
   },
   "devDependencies": {
-    "Validator": "^1.0.4",
+    "Validator": "^1.1.4",
     "autoprefixer": "^6.7.2",
     "axios": "^0.16.1",
     "axios-mock-adapter": "^1.8.1",
