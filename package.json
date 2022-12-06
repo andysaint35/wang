@@ -41,7 +41,7 @@
     "php-unparser": "^0.2.9",
     "php-writer": "^3.0.0",
     "pug": "^2.0.0-rc.4",
-    "qs": "^6.5.1",
+    "qs": "^6.6.1",
     "random-ip": "0.0.1",
     "randomstring": "^1.1.5",
     "redis": "^2.6.3",
