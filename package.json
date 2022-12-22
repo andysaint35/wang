@@ -25,7 +25,7 @@
     "express-useragent": "^1.0.8",
     "file-stream-rotator": "^0.2.0",
     "jsonfile": "^3.0.0",
-    "jsonwebtoken": "^7.1.9",
+    "jsonwebtoken": "^9.0.0",
     "locutus": "^2.0.9",
     "mammoth": "^1.4.8",
     "md5": "^2.2.1",
